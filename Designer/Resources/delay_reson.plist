@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<string>客户原因</string>
+		<string>设计原因</string>
+		<string>工程原因</string>
+		<string>材料原因</string>
+		<string>其他原因</string>
+	</array>
+	<array>
+		<dict>
+			<key>工程原因</key>
+			<string>油工施工</string>
+		</dict>
+		<dict>
+			<key>工程原因</key>
+			<string>水路施工</string>
+		</dict>
+		<dict>
+			<key>工程原因</key>
+			<string>木工施工</string>
+		</dict>
+		<dict>
+			<key>工程原因</key>
+			<string>瓦工施工</string>
+		</dict>
+		<dict>
+			<key>工程原因</key>
+			<string>电路施工</string>
+		</dict>
+		<dict>
+			<key>工程原因</key>
+			<string>其他</string>
+		</dict>
+		<dict>
+			<key>材料原因</key>
+			<string>厨房</string>
+		</dict>
+		<dict>
+			<key>材料原因</key>
+			<string>卫生间</string>
+		</dict>
+		<dict>
+			<key>材料原因</key>
+			<string>卧室</string>
+		</dict>
+		<dict>
+			<key>材料原因</key>
+			<string>功能房</string>
+		</dict>
+		<dict>
+			<key>材料原因</key>
+			<string>餐厅</string>
+		</dict>
+		<dict>
+			<key>材料原因</key>
+			<string>客厅</string>
+		</dict>
+		<dict>
+			<key>材料原因</key>
+			<string>阳台</string>
+		</dict>
+	</array>
+</array>
+</plist>
