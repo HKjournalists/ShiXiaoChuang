@@ -508,7 +508,7 @@
     
 #ifdef DEBUG
     nameTextField.text = @"qikaikuan";
-    passwordTextField.text = @"qi930511";
+    passwordTextField.text = @"1";
 #endif
     
 }

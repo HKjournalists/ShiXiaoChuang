@@ -525,10 +525,10 @@
         }
         
         if (i == 3) {
-            l.frame = RectMake2x( 809-40, 0, 101, 140);
+            l.frame = RectMake2x( 809-60, 0, 101, 140);
         }
         if (i == 4) {
-            l.frame = RectMake2x( 910-40, 0, 100, 140);
+            l.frame = RectMake2x( 910-60, 0, 150, 140);
         }
         if (i == 5) {
             l.frame = RectMake2x( 1010-40, 0, 161, 140);
@@ -588,14 +588,14 @@
             l.frame = RectMake2x( 684-40, 0, 136, 140);
         }
         if (i == 4) {
-            l.frame = RectMake2x( 800-40, 0, 115, 140);
+            l.frame = RectMake2x( 800-40, 0, 155, 140);
         }
         if (i == 5) {
-            l.frame = RectMake2x( 915-40, 0, 116, 140);
+            l.frame = RectMake2x( 915-40, 0, 216, 140);
         }
         if (i == 6) {
-            l.frame = RectMake2x( 1031-40, 0, 977, 140);
-            //            l.numberOfLines = 0;
+            l.frame = RectMake2x( 1031, 0, 957, 140);
+            l.numberOfLines = 0;
 
         }
         
