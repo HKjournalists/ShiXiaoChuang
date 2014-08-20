@@ -67,6 +67,9 @@
 }
 
 
+
+//reason: 'Supported orientations has no common orientation with the application, and shouldAutorotate is returning YES'
+
 - (void)putImage
 {
     
@@ -209,6 +212,26 @@
 
 }
 
+- (IBAction)importLibPhoto:(id)sender {
+    
+
+    self.imagePickerController = [[UIImagePickerController alloc] init];
+    self.imagePickerController.sourceType = UIImagePickerControllerSourceTypePhotoLibrary;
+    self.imagePickerController.delegate = self;
+    self.popoverVC = [[UIPopoverController alloc] initWithContentViewController:self.imagePickerController];
+    
+    [self.popoverVC presentPopoverFromRect:CGRectMake(0, 0, 50, 60)   // did you forget to call this method?
+                               inView:sender
+             permittedArrowDirections:UIPopoverArrowDirectionAny
+                             animated:YES];
+    
+    
+
+
+
+    
+}
+
 
 - (void)closeMe:(UIButton *)button
 {
@@ -295,4 +318,37 @@
         DLog(@"%s: AFHTTPRequestOperation error: %@", __FUNCTION__, error);
     }];
 }
+
+
+
+#pragma mark - UIImagePickerControllerDelegate
+
+// This method is called when an image has been chosen from the library or taken from the camera.
+- (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info
+{
+    UIImage *img = [info valueForKey:UIImagePickerControllerOriginalImage];
+
+    CGSize size = CGSizeMake( img.size.width* 1/2, img.size.height* 1/2) ;
+    
+    UIImage *image = [Image imageWithImage:img scaledToSize:size];
+
+    
+    NSLog(@"%f, %f", image.size.width, image.size.height);
+    
+    
+    _showView.alpha = 1;
+    self.Preview.image = image;
+
+    [self.popoverVC dismissPopoverAnimated:YES];
+
+}
+
+
+- (void)imagePickerControllerDidCancel:(UIImagePickerController *)picker
+{
+
+    [self.popoverVC dismissPopoverAnimated:YES];
+}
+
+
 @end

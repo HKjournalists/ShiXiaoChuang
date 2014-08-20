@@ -537,7 +537,7 @@
     SharedAppUser.Lng = [NSString stringWithFormat:@"%f", userLocation.location.coordinate.longitude];
     
 
-    DLog(@"%f:%f",  userLocation.location.coordinate.latitude,  userLocation.location.coordinate.longitude );
+//    DLog(@"%f:%f",  userLocation.location.coordinate.latitude,  userLocation.location.coordinate.longitude );
 }
 
 - (void)mapView:(BMKMapView *)mapView didFailToLocateUserWithError:(NSError *)error

@@ -10,7 +10,7 @@
 #import "BaseViewController.h"
 #import "AFNetworking.h"
 
-@interface WKKViewController : BaseViewController
+@interface WKKViewController : BaseViewController<UINavigationControllerDelegate, UIImagePickerControllerDelegate>
 {
     UIView *RealView;
 }
@@ -29,10 +29,19 @@
 
 
 
+@property (strong, nonatomic) UIPopoverController  *popoverVC;
+
+@property (nonatomic) UIImagePickerController *imagePickerController;
+
 
 
 - (IBAction)back:(id)sender;
 - (IBAction)redoPhoto:(id)sender;
 - (IBAction)updateImage:(id)sender;
+- (IBAction)importLibPhoto:(id)sender;
+
+
+
+
 
 @end
