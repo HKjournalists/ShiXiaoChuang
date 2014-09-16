@@ -516,6 +516,8 @@
     
     _baidu_MapView.delegate = self;
 
+
+
     
 }
 
@@ -531,6 +533,15 @@
     return nil;
 }
 
+- (void)mapViewWillStartLocatingUser:(BMKMapView *)mapView
+{
+//    SharedAppUser.Lat = [NSString stringWithFormat:@"%f", userLocation.location.coordinate.latitude];
+//    SharedAppUser.Lng = [NSString stringWithFormat:@"%f", userLocation.location.coordinate.longitude];
+    
+}
+
+
+
 - (void)mapView:(BMKMapView *)mapView didUpdateUserLocation:(BMKUserLocation *)userLocation
 {
     SharedAppUser.Lat = [NSString stringWithFormat:@"%f", userLocation.location.coordinate.latitude];
@@ -545,10 +556,6 @@
     
 }
 
-- (void)mapViewWillStartLocatingUser:(BMKMapView *)mapView
-{
-    
-}
 
 
 - (void)mapViewDidStopLocatingUser:(BMKMapView *)mapView
@@ -564,7 +571,7 @@
 -(void)startFollowing
 {
     NSLog(@"进入跟随态");
-    _baidu_MapView.showsUserLocation = NO;
+//    _baidu_MapView.showsUserLocation = NO;
     _baidu_MapView.userTrackingMode = BMKUserTrackingModeNone;
     _baidu_MapView.showsUserLocation = YES;
     
@@ -813,6 +820,16 @@
 
     
     [self loadDateView];
+    
+    
+    
+    double lat = [[Cookie getCookie:@"Lat"] doubleValue];
+    double lng = [[Cookie getCookie:@"Lng"] doubleValue];
+    
+    CLLocationCoordinate2D point = CLLocationCoordinate2DMake(lat, lng);
+    
+    
+    [_baidu_MapView setCenterCoordinate:point];
 }
 
 - (void)checkLocationServicesEnabled:(UIButton *)button
@@ -847,6 +864,10 @@
     SharedAppUser.isSignalIn  = NO;
     SharedAppUser.isSignalOut = NO;
 
+    
+    
+
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -1414,11 +1435,12 @@
             break;
     }
     
-    
+   
     NSDictionary *parameters = @{@"orderId": self.dataMDict[@"Id"][@"text"],
                                  @"monitorId": SharedAppUser.ID ,
-                                 @"monitorName": SharedAppUser.account};
-    
+                                 @"monitorName": SharedAppUser.account ,
+                                 @"lng":  SharedAppUser.Lng ,
+                                 @"lat":  SharedAppUser.Lat } ;
     [manager POST:url parameters:parameters success:^(AFHTTPRequestOperation *operation, id responseObject) {
         
         

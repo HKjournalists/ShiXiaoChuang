@@ -328,7 +328,8 @@
 {
     UIImage *img = [info valueForKey:UIImagePickerControllerOriginalImage];
 
-    CGSize size = CGSizeMake( img.size.width* 1/2, img.size.height* 1/2) ;
+
+    CGSize size = CGSizeMake( img.size.width* 1/4, img.size.height* 1/4) ;
     
     UIImage *image = [Image imageWithImage:img scaledToSize:size];
 

@@ -116,9 +116,10 @@ BMKMapManager *_mapManager;
         
         NSDictionary *dict = [Cookie getCookie:currentUser];
 
-        SharedAppUser.ID  = [dict objectForKey:@"id"];
+        SharedAppUser.ID  =     [dict objectForKey:@"id"];
         SharedAppUser.account = [dict objectForKey:@"account"];
-        SharedAppUser.name = [dict objectForKey:@"nickName"];
+        SharedAppUser.name =    [dict objectForKey:@"nickName"];
+
     }
     
     //    当前登录用户

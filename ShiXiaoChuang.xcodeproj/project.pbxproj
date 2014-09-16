@@ -13,17 +13,11 @@
 		C02C420218E2EE4800412011 /* theme.plist in Resources */ = {isa = PBXBuildFile; fileRef = C02C420118E2EE4800412011 /* theme.plist */; };
 		C031ED6E18C5C27D004E970D /* BejoyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C031ED6D18C5C27D004E970D /* BejoyViewController.m */; };
 		C044E2A51907BFEF0021858C /* 表格-标题黄线.png in Resources */ = {isa = PBXBuildFile; fileRef = C044E2A41907BFEF0021858C /* 表格-标题黄线.png */; };
-		C044E2A61907BFEF0021858C /* 表格-标题黄线.png in Resources */ = {isa = PBXBuildFile; fileRef = C044E2A41907BFEF0021858C /* 表格-标题黄线.png */; };
 		C044E2AC1907DD8F0021858C /* 按钮-提交表单@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C044E2A71907DD8F0021858C /* 按钮-提交表单@2x.png */; };
-		C044E2AD1907DD8F0021858C /* 按钮-提交表单@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C044E2A71907DD8F0021858C /* 按钮-提交表单@2x.png */; };
 		C044E2AE1907DD8F0021858C /* 标题图-竣工验收.png in Resources */ = {isa = PBXBuildFile; fileRef = C044E2A81907DD8F0021858C /* 标题图-竣工验收.png */; };
-		C044E2AF1907DD8F0021858C /* 标题图-竣工验收.png in Resources */ = {isa = PBXBuildFile; fileRef = C044E2A81907DD8F0021858C /* 标题图-竣工验收.png */; };
 		C044E2B01907DD8F0021858C /* 标题图-现场交底.png in Resources */ = {isa = PBXBuildFile; fileRef = C044E2A91907DD8F0021858C /* 标题图-现场交底.png */; };
-		C044E2B11907DD8F0021858C /* 标题图-现场交底.png in Resources */ = {isa = PBXBuildFile; fileRef = C044E2A91907DD8F0021858C /* 标题图-现场交底.png */; };
 		C044E2B21907DD8F0021858C /* 标题图-隐蔽验收.png in Resources */ = {isa = PBXBuildFile; fileRef = C044E2AA1907DD8F0021858C /* 标题图-隐蔽验收.png */; };
-		C044E2B31907DD8F0021858C /* 标题图-隐蔽验收.png in Resources */ = {isa = PBXBuildFile; fileRef = C044E2AA1907DD8F0021858C /* 标题图-隐蔽验收.png */; };
 		C044E2B41907DD8F0021858C /* 标题图-中期验收.png in Resources */ = {isa = PBXBuildFile; fileRef = C044E2AB1907DD8F0021858C /* 标题图-中期验收.png */; };
-		C044E2B51907DD8F0021858C /* 标题图-中期验收.png in Resources */ = {isa = PBXBuildFile; fileRef = C044E2AB1907DD8F0021858C /* 标题图-中期验收.png */; };
 		C04B0C2418C43EAA00CFD548 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C04B0C2318C43EAA00CFD548 /* Foundation.framework */; };
 		C04B0C2618C43EAA00CFD548 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C04B0C2518C43EAA00CFD548 /* CoreGraphics.framework */; };
 		C04B0C2818C43EAA00CFD548 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C04B0C2718C43EAA00CFD548 /* UIKit.framework */; };
@@ -81,209 +75,39 @@
 		C04B0CEC18C43F6600CFD548 /* ZHView.m in Sources */ = {isa = PBXBuildFile; fileRef = C04B0CBD18C43F6600CFD548 /* ZHView.m */; };
 		C056F58A18E27FC4005447CA /* data in Resources */ = {isa = PBXBuildFile; fileRef = C056F58918E27FC4005447CA /* data */; };
 		C05A23B319174CA700DB7DCC /* construction_cell_bg_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C05A23B219174CA700DB7DCC /* construction_cell_bg_1@2x.png */; };
-		C05A23B419174CA700DB7DCC /* construction_cell_bg_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C05A23B219174CA700DB7DCC /* construction_cell_bg_1@2x.png */; };
 		C05E47A818DFDF5F0006A10F /* UIColor+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = C05E47A718DFDF5F0006A10F /* UIColor+Color.m */; };
 		C05E47AB18E001850006A10F /* Theme.m in Sources */ = {isa = PBXBuildFile; fileRef = C05E47AA18E001850006A10F /* Theme.m */; };
 		C077977419331A1400087842 /* delay_reson.plist in Resources */ = {isa = PBXBuildFile; fileRef = C077977319331A1400087842 /* delay_reson.plist */; };
-		C077977519331A1400087842 /* delay_reson.plist in Resources */ = {isa = PBXBuildFile; fileRef = C077977319331A1400087842 /* delay_reson.plist */; };
 		C077C2261908AFF000981170 /* 大五角星-完成.png in Resources */ = {isa = PBXBuildFile; fileRef = C077C2241908AFF000981170 /* 大五角星-完成.png */; };
-		C077C2271908AFF000981170 /* 大五角星-完成.png in Resources */ = {isa = PBXBuildFile; fileRef = C077C2241908AFF000981170 /* 大五角星-完成.png */; };
 		C077C2281908AFF000981170 /* 大五角星-未完成.png in Resources */ = {isa = PBXBuildFile; fileRef = C077C2251908AFF000981170 /* 大五角星-未完成.png */; };
-		C077C2291908AFF000981170 /* 大五角星-未完成.png in Resources */ = {isa = PBXBuildFile; fileRef = C077C2251908AFF000981170 /* 大五角星-未完成.png */; };
 		C077C22B1908CE9E00981170 /* 左菜单-allbg-1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C077C22A1908CE9E00981170 /* 左菜单-allbg-1@2x.png */; };
-		C077C22C1908CE9E00981170 /* 左菜单-allbg-1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C077C22A1908CE9E00981170 /* 左菜单-allbg-1@2x.png */; };
 		C077C2341908D9D200981170 /* 实小创-allbg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C077C2331908D9D200981170 /* 实小创-allbg@2x.png */; };
-		C077C2351908D9D200981170 /* 实小创-allbg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C077C2331908D9D200981170 /* 实小创-allbg@2x.png */; };
 		C077C2371908DA2000981170 /* 左菜单-allbg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C077C2361908DA2000981170 /* 左菜单-allbg@2x.png */; };
-		C077C2381908DA2000981170 /* 左菜单-allbg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C077C2361908DA2000981170 /* 左菜单-allbg@2x.png */; };
 		C077C23A1908DA2C00981170 /* 左菜单-allbg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C077C2391908DA2C00981170 /* 左菜单-allbg@2x.png */; };
-		C077C23B1908DA2C00981170 /* 左菜单-allbg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C077C2391908DA2C00981170 /* 左菜单-allbg@2x.png */; };
 		C077C23D1908E99200981170 /* 标题图-所有工地.png in Resources */ = {isa = PBXBuildFile; fileRef = C077C23C1908E99200981170 /* 标题图-所有工地.png */; };
-		C077C23E1908E99200981170 /* 标题图-所有工地.png in Resources */ = {isa = PBXBuildFile; fileRef = C077C23C1908E99200981170 /* 标题图-所有工地.png */; };
 		C077C2421908FD1900981170 /* ZHBaseMaterialsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C077C2401908FD1900981170 /* ZHBaseMaterialsViewController.m */; };
-		C077C2431908FD1900981170 /* ZHBaseMaterialsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C077C2401908FD1900981170 /* ZHBaseMaterialsViewController.m */; };
 		C077C2441908FD1900981170 /* ZHBaseMaterialsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C077C2411908FD1900981170 /* ZHBaseMaterialsViewController.xib */; };
-		C077C2451908FD1900981170 /* ZHBaseMaterialsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C077C2411908FD1900981170 /* ZHBaseMaterialsViewController.xib */; };
 		C077C249190912BE00981170 /* 按钮-返回1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C077C246190912BE00981170 /* 按钮-返回1@2x.png */; };
-		C077C24A190912BE00981170 /* 按钮-返回1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C077C246190912BE00981170 /* 按钮-返回1@2x.png */; };
 		C077C24B190912BE00981170 /* 标题图-基材验收@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C077C247190912BE00981170 /* 标题图-基材验收@2x.png */; };
-		C077C24C190912BE00981170 /* 标题图-基材验收@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C077C247190912BE00981170 /* 标题图-基材验收@2x.png */; };
 		C077C24D190912BE00981170 /* 表格-标题黄线-1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C077C248190912BE00981170 /* 表格-标题黄线-1@2x.png */; };
-		C077C24E190912BE00981170 /* 表格-标题黄线-1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C077C248190912BE00981170 /* 表格-标题黄线-1@2x.png */; };
 		C077C2511909278200981170 /* ZHMainMaterialsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C077C2501909278200981170 /* ZHMainMaterialsViewController.m */; };
-		C077C2521909278200981170 /* ZHMainMaterialsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C077C2501909278200981170 /* ZHMainMaterialsViewController.m */; };
 		C077C2541909281900981170 /* 标题图-主材验收@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C077C2531909281900981170 /* 标题图-主材验收@2x.png */; };
-		C077C2551909281900981170 /* 标题图-主材验收@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C077C2531909281900981170 /* 标题图-主材验收@2x.png */; };
 		C0851544191C724500621EA5 /* CuiKuanCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C0851542191C724500621EA5 /* CuiKuanCell.m */; };
-		C0851545191C724500621EA5 /* CuiKuanCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C0851542191C724500621EA5 /* CuiKuanCell.m */; };
 		C0851546191C724500621EA5 /* CuiKuanCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0851543191C724500621EA5 /* CuiKuanCell.xib */; };
-		C0851547191C724500621EA5 /* CuiKuanCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0851543191C724500621EA5 /* CuiKuanCell.xib */; };
 		C085154A191CBF1200621EA5 /* ZHLicenseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0851549191CBF1200621EA5 /* ZHLicenseViewController.m */; };
-		C085154B191CBF1200621EA5 /* ZHLicenseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0851549191CBF1200621EA5 /* ZHLicenseViewController.m */; };
 		C0851552191CCA9800621EA5 /* ZHBiShuiCheckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0851551191CCA9800621EA5 /* ZHBiShuiCheckViewController.m */; };
-		C0851553191CCA9800621EA5 /* ZHBiShuiCheckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0851551191CCA9800621EA5 /* ZHBiShuiCheckViewController.m */; };
 		C0863A1B190DEDBB00EAD2E0 /* ZHTmpeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0863A19190DEDBB00EAD2E0 /* ZHTmpeViewController.m */; };
-		C0863A1C190DEDBB00EAD2E0 /* ZHTmpeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0863A19190DEDBB00EAD2E0 /* ZHTmpeViewController.m */; };
 		C0863A1D190DEDBB00EAD2E0 /* ZHTmpeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0863A1A190DEDBB00EAD2E0 /* ZHTmpeViewController.xib */; };
-		C0863A1E190DEDBB00EAD2E0 /* ZHTmpeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0863A1A190DEDBB00EAD2E0 /* ZHTmpeViewController.xib */; };
 		C0863A21190E120B00EAD2E0 /* 标题图-临时事务单@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0863A1F190E120B00EAD2E0 /* 标题图-临时事务单@2x.png */; };
-		C0863A22190E120B00EAD2E0 /* 标题图-临时事务单@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0863A1F190E120B00EAD2E0 /* 标题图-临时事务单@2x.png */; };
 		C0863A23190E120B00EAD2E0 /* 临时事务单-bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0863A20190E120B00EAD2E0 /* 临时事务单-bg@2x.png */; };
-		C0863A24190E120B00EAD2E0 /* 临时事务单-bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0863A20190E120B00EAD2E0 /* 临时事务单-bg@2x.png */; };
-		C08B03FC1904B4BD0020E7F6 /* BejoyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C031ED6D18C5C27D004E970D /* BejoyViewController.m */; };
-		C08B03FD1904B4BD0020E7F6 /* SGFocusImageItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C0BC18CE18D97E2C007BD139 /* SGFocusImageItem.m */; };
-		C08B03FE1904B4BD0020E7F6 /* DesginerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C04B0C9818C43F6600CFD548 /* DesginerCell.m */; };
-		C08B03FF1904B4BD0020E7F6 /* Theme.m in Sources */ = {isa = PBXBuildFile; fileRef = C05E47AA18E001850006A10F /* Theme.m */; };
-		C08B04001904B4BD0020E7F6 /* glues_mipmap.c in Sources */ = {isa = PBXBuildFile; fileRef = C0C295D818F121FE005DA92A /* glues_mipmap.c */; };
-		C08B04011904B4BD0020E7F6 /* ZHManageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C04B0CB918C43F6600CFD548 /* ZHManageCell.m */; };
-		C08B04021904B4BD0020E7F6 /* NavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C04B0CA418C43F6600CFD548 /* NavigationViewController.m */; };
-		C08B04031904B4BD0020E7F6 /* NewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C04B0CA618C43F6600CFD548 /* NewsCell.m */; };
-		C08B04041904B4BD0020E7F6 /* TableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C04B0CAC18C43F6600CFD548 /* TableView.m */; };
-		C08B04051904B4BD0020E7F6 /* PLSceneElement.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C2961418F121FE005DA92A /* PLSceneElement.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		C08B04061904B4BD0020E7F6 /* UIColor+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = C05E47A718DFDF5F0006A10F /* UIColor+Color.m */; };
-		C08B04071904B4BD0020E7F6 /* PLSceneElementBase.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C2961618F121FE005DA92A /* PLSceneElementBase.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		C08B04081904B4BD0020E7F6 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = C04B0C6018C43F6600CFD548 /* User.m */; };
-		C08B04091904B4BD0020E7F6 /* ZHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C04B0C3918C43EAA00CFD548 /* ZHViewController.m */; };
-		C08B040A1904B4BD0020E7F6 /* glues_project.c in Sources */ = {isa = PBXBuildFile; fileRef = C0C295DA18F121FE005DA92A /* glues_project.c */; };
-		C08B040B1904B4BD0020E7F6 /* TypeTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C04B0CB018C43F6600CFD548 /* TypeTableView.m */; };
-		C08B040C1904B4BD0020E7F6 /* CaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C04B0C9518C43F6600CFD548 /* CaseCell.m */; };
-		C08B040D1904B4BD0020E7F6 /* ZHAppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = C04B0C3318C43EAA00CFD548 /* ZHAppDelegate.mm */; };
-		C08B040E1904B4BD0020E7F6 /* PLLog.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C295FE18F121FE005DA92A /* PLLog.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		C08B040F1904B4BD0020E7F6 /* PLIntersection.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C295F418F121FE005DA92A /* PLIntersection.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		C08B04101904B4BD0020E7F6 /* FlipBoardNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C04B0C9E18C43F6600CFD548 /* FlipBoardNavigationController.m */; };
-		C08B04111904B4BD0020E7F6 /* PLTransitionFadeOut.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C2962A18F121FE005DA92A /* PLTransitionFadeOut.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		C08B04121904B4BD0020E7F6 /* ProductCCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C04B0CA818C43F6600CFD548 /* ProductCCell.m */; };
-		C08B04131904B4BD0020E7F6 /* Session.m in Sources */ = {isa = PBXBuildFile; fileRef = C04B0C7918C43F6600CFD548 /* Session.m */; };
-		C08B04141904B4BD0020E7F6 /* PLTransitionFadeIn.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C2962818F121FE005DA92A /* PLTransitionFadeIn.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		C08B04151904B4BD0020E7F6 /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = C04B0CA218C43F6600CFD548 /* Message.m */; };
-		C08B04161904B4BD0020E7F6 /* NSDate+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = C04B0C7118C43F6600CFD548 /* NSDate+Helper.m */; };
-		C08B04171904B4BD0020E7F6 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = C04B0C7518C43F6600CFD548 /* NSString+MD5.m */; };
-		C08B04181904B4BD0020E7F6 /* glues_registry.c in Sources */ = {isa = PBXBuildFile; fileRef = C0C295DE18F121FE005DA92A /* glues_registry.c */; };
-		C08B04191904B4BD0020E7F6 /* PLCylindricalPanorama.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C295EB18F121FE005DA92A /* PLCylindricalPanorama.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		C08B041A1904B4BD0020E7F6 /* BaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C04B0C8F18C43F6600CFD548 /* BaseTableViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		C08B041B1904B4BD0020E7F6 /* PLPanoramaBase.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C2960A18F121FE005DA92A /* PLPanoramaBase.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		C08B041C1904B4BD0020E7F6 /* ZHFileCache.m in Sources */ = {isa = PBXBuildFile; fileRef = C04B0C8318C43F6600CFD548 /* ZHFileCache.m */; };
-		C08B041D1904B4BD0020E7F6 /* Cookie.m in Sources */ = {isa = PBXBuildFile; fileRef = C04B0C6B18C43F6600CFD548 /* Cookie.m */; };
-		C08B041E1904B4BD0020E7F6 /* ZHDBData.m in Sources */ = {isa = PBXBuildFile; fileRef = C04B0C8118C43F6600CFD548 /* ZHDBData.m */; };
-		C08B041F1904B4BD0020E7F6 /* ZHNetWorkFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B47C4C18D859F9007C6D40 /* ZHNetWorkFunction.m */; };
-		C08B04201904B4BD0020E7F6 /* ZHConstructionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0EBB7F318FF7C27007E3CCB /* ZHConstructionViewController.m */; };
-		C08B04211904B4BD0020E7F6 /* PLUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C2962D18F121FE005DA92A /* PLUtils.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		C08B04221904B4BD0020E7F6 /* PLObjectBase.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C2960418F121FE005DA92A /* PLObjectBase.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		C08B04231904B4BD0020E7F6 /* PLOpenGLSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C2960818F121FE005DA92A /* PLOpenGLSupport.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		C08B04241904B4BD0020E7F6 /* ZHDBControl.m in Sources */ = {isa = PBXBuildFile; fileRef = C04B0C7F18C43F6600CFD548 /* ZHDBControl.m */; };
-		C08B04251904B4BD0020E7F6 /* PLVector3.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C2962F18F121FE005DA92A /* PLVector3.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		C08B04261904B4BD0020E7F6 /* IIWrapController.m in Sources */ = {isa = PBXBuildFile; fileRef = C04B0CB718C43F6600CFD548 /* IIWrapController.m */; };
-		C08B04271904B4BD0020E7F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C04B0C2F18C43EAA00CFD548 /* main.m */; };
-		C08B04281904B4BD0020E7F6 /* UIButton+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = C04B0C7C18C43F6600CFD548 /* UIButton+Utilities.m */; };
-		C08B04291904B4BD0020E7F6 /* PLJSONLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C295FC18F121FE005DA92A /* PLJSONLoader.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		C08B042A1904B4BD0020E7F6 /* ZHPassDataJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = C04B0C8518C43F6600CFD548 /* ZHPassDataJSON.m */; };
-		C08B042B1904B4BD0020E7F6 /* ActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = C04B0C8D18C43F6600CFD548 /* ActivityIndicatorView.m */; };
-		C08B042C1904B4BD0020E7F6 /* Button.m in Sources */ = {isa = PBXBuildFile; fileRef = C04B0C9318C43F6600CFD548 /* Button.m */; };
-		C08B042D1904B4BD0020E7F6 /* PLSpherical2Panorama.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C2961A18F121FE005DA92A /* PLSpherical2Panorama.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		C08B042E1904B4BD0020E7F6 /* ZHView.m in Sources */ = {isa = PBXBuildFile; fileRef = C04B0CBD18C43F6600CFD548 /* ZHView.m */; };
-		C08B042F1904B4BD0020E7F6 /* PLTransitionFadeBase.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C2962518F121FE005DA92A /* PLTransitionFadeBase.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		C08B04301904B4BD0020E7F6 /* ZHNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C04B0CBB18C43F6600CFD548 /* ZHNavigationViewController.m */; };
-		C08B04311904B4BD0020E7F6 /* PLTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C2962218F121FE005DA92A /* PLTransition.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		C08B04321904B4BD0020E7F6 /* IISideController.m in Sources */ = {isa = PBXBuildFile; fileRef = C04B0CB318C43F6600CFD548 /* IISideController.m */; };
-		C08B04331904B4BD0020E7F6 /* AccessCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C04B0C8A18C43F6600CFD548 /* AccessCell.m */; };
-		C08B04341904B4BD0020E7F6 /* PLCubicPanorama.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C295E918F121FE005DA92A /* PLCubicPanorama.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		C08B04351904B4BD0020E7F6 /* XMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E50CBE18EC0AEE008C6A0C /* XMLReader.m */; };
-		C08B04361904B4BD0020E7F6 /* PLView.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C2963118F121FE005DA92A /* PLView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		C08B04371904B4BD0020E7F6 /* PLSphericalPanorama.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C2961C18F121FE005DA92A /* PLSphericalPanorama.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		C08B04381904B4BD0020E7F6 /* ImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = C04B0C6D18C43F6600CFD548 /* ImageDownloader.m */; };
-		C08B04391904B4BD0020E7F6 /* PLCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C295E518F121FE005DA92A /* PLCamera.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		C08B043A1904B4BD0020E7F6 /* PLTexture.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C2961F18F121FE005DA92A /* PLTexture.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		C08B043B1904B4BD0020E7F6 /* IIViewDeckController.m in Sources */ = {isa = PBXBuildFile; fileRef = C04B0CB518C43F6600CFD548 /* IIViewDeckController.m */; };
-		C08B043C1904B4BD0020E7F6 /* ImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = C04B0CA018C43F6600CFD548 /* ImageView.m */; };
-		C08B043E1904B4BD0020E7F6 /* NSDate-Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = C04B0C7318C43F6600CFD548 /* NSDate-Utilities.m */; };
-		C08B043F1904B4BD0020E7F6 /* NetWork.m in Sources */ = {isa = PBXBuildFile; fileRef = C04B0C6F18C43F6600CFD548 /* NetWork.m */; };
-		C08B04401904B4BD0020E7F6 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C04B0CAE18C43F6600CFD548 /* TableViewController.m */; };
-		C08B04411904B4BD0020E7F6 /* glues_error.c in Sources */ = {isa = PBXBuildFile; fileRef = C0C295D618F121FE005DA92A /* glues_error.c */; };
-		C08B04421904B4BD0020E7F6 /* SGFocusImageFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = C0BC18D018D97E2C007BD139 /* SGFocusImageFrame.m */; };
-		C08B04431904B4BD0020E7F6 /* PLRenderableElementBase.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C2960D18F121FE005DA92A /* PLRenderableElementBase.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		C08B04441904B4BD0020E7F6 /* PLViewBase.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C2963318F121FF005DA92A /* PLViewBase.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		C08B04451904B4BD0020E7F6 /* PLObject.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C2960218F121FE005DA92A /* PLObject.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		C08B04461904B4BD0020E7F6 /* PLScene.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C2961218F121FE005DA92A /* PLScene.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		C08B04471904B4BD0020E7F6 /* PLMath.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C2960018F121FE005DA92A /* PLMath.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		C08B04481904B4BD0020E7F6 /* DesginerCellV.m in Sources */ = {isa = PBXBuildFile; fileRef = C04B0C9B18C43F6600CFD548 /* DesginerCellV.m */; };
-		C08B04491904B4BD0020E7F6 /* PdfPopoverController.m in Sources */ = {isa = PBXBuildFile; fileRef = C00E750318C96EC2007AB730 /* PdfPopoverController.m */; };
-		C08B044A1904B4BD0020E7F6 /* CommonMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = C04B0C6918C43F6600CFD548 /* CommonMethod.m */; };
-		C08B044B1904B4BD0020E7F6 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E50CBB18EBE7F9008C6A0C /* LoginViewController.m */; };
-		C08B044C1904B4BD0020E7F6 /* PLImage.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C295F218F121FE005DA92A /* PLImage.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		C08B044D1904B4BD0020E7F6 /* PLRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C2961018F121FE005DA92A /* PLRenderer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		C08B044E1904B4BD0020E7F6 /* PLHotspot.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C295EE18F121FE005DA92A /* PLHotspot.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		C08B044F1904B4BD0020E7F6 /* PendingOperations.m in Sources */ = {isa = PBXBuildFile; fileRef = C04B0C7718C43F6600CFD548 /* PendingOperations.m */; };
-		C08B04501904B4BD0020E7F6 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C04B0C9118C43F6600CFD548 /* BaseViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		C08B04511904B4BD0020E7F6 /* glues_quad.c in Sources */ = {isa = PBXBuildFile; fileRef = C0C295DC18F121FE005DA92A /* glues_quad.c */; };
-		C08B04531904B4BD0020E7F6 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0C2965D18F125C2005DA92A /* OpenGLES.framework */; };
-		C08B04551904B4BD0020E7F6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C04B0C2518C43EAA00CFD548 /* CoreGraphics.framework */; };
-		C08B04561904B4BD0020E7F6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C04B0C2718C43EAA00CFD548 /* UIKit.framework */; };
-		C08B04571904B4BD0020E7F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C04B0C2318C43EAA00CFD548 /* Foundation.framework */; };
-		C08B04581904B4BD0020E7F6 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BEA8B749C794E529B4F8F16 /* libPods.a */; };
-		C08B045A1904B4BD0020E7F6 /* 工地信息-白色底框1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0CBD0401901209800DDFFA4 /* 工地信息-白色底框1@2x.png */; };
-		C08B045C1904B4BD0020E7F6 /* AccessCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C04B0C8B18C43F6600CFD548 /* AccessCell.xib */; };
-		C08B045D1904B4BD0020E7F6 /* 按钮1-今日巡场-00.png in Resources */ = {isa = PBXBuildFile; fileRef = C0CBD01C1900BDAA00DDFFA4 /* 按钮1-今日巡场-00.png */; };
-		C08B045E1904B4BD0020E7F6 /* 按钮2--现场交底-00.png in Resources */ = {isa = PBXBuildFile; fileRef = C0EBB7FB18FFD454007E3CCB /* 按钮2--现场交底-00.png */; };
-		C08B045F1904B4BD0020E7F6 /* 按钮2-待交底-01.png in Resources */ = {isa = PBXBuildFile; fileRef = C0CBD01F1900BDAA00DDFFA4 /* 按钮2-待交底-01.png */; };
-		C08B04601904B4BD0020E7F6 /* 提醒信息.png in Resources */ = {isa = PBXBuildFile; fileRef = C0CBD0261900BDAA00DDFFA4 /* 提醒信息.png */; };
-		C08B04611904B4BD0020E7F6 /* 按钮3-待隐蔽验收-00.png in Resources */ = {isa = PBXBuildFile; fileRef = C0CBD0201900BDAA00DDFFA4 /* 按钮3-待隐蔽验收-00.png */; };
-		C08B04621904B4BD0020E7F6 /* 按钮1-今日巡场-01.png in Resources */ = {isa = PBXBuildFile; fileRef = C0CBD01D1900BDAA00DDFFA4 /* 按钮1-今日巡场-01.png */; };
-		C08B04631904B4BD0020E7F6 /* 按钮-附加菜单-01.png in Resources */ = {isa = PBXBuildFile; fileRef = C0EBB7F818FFD454007E3CCB /* 按钮-附加菜单-01.png */; };
-		C08B04641904B4BD0020E7F6 /* 按钮3-待隐蔽验收-01.png in Resources */ = {isa = PBXBuildFile; fileRef = C0CBD0211900BDAA00DDFFA4 /* 按钮3-待隐蔽验收-01.png */; };
-		C08B04651904B4BD0020E7F6 /* 按钮5-待竣工验收-01.png in Resources */ = {isa = PBXBuildFile; fileRef = C0CBD0251900BDAA00DDFFA4 /* 按钮5-待竣工验收-01.png */; };
-		C08B04661904B4BD0020E7F6 /* 按钮2-待交底-00.png in Resources */ = {isa = PBXBuildFile; fileRef = C0CBD01E1900BDAA00DDFFA4 /* 按钮2-待交底-00.png */; };
-		C08B04671904B4BD0020E7F6 /* DesginerCellV.xib in Resources */ = {isa = PBXBuildFile; fileRef = C04B0C9C18C43F6600CFD548 /* DesginerCellV.xib */; };
-		C08B04681904B4BD0020E7F6 /* theme.plist in Resources */ = {isa = PBXBuildFile; fileRef = C02C420118E2EE4800412011 /* theme.plist */; };
-		C08B04691904B4BD0020E7F6 /* 按钮1--工地信息-01.png in Resources */ = {isa = PBXBuildFile; fileRef = C0EBB7FA18FFD454007E3CCB /* 按钮1--工地信息-01.png */; };
-		C08B046A1904B4BD0020E7F6 /* 按钮0-所有工地-00.png in Resources */ = {isa = PBXBuildFile; fileRef = C0CBD01A1900BDAA00DDFFA4 /* 按钮0-所有工地-00.png */; };
-		C08B046B1904B4BD0020E7F6 /* 按钮2--现场交底-01.png in Resources */ = {isa = PBXBuildFile; fileRef = C0EBB7FC18FFD454007E3CCB /* 按钮2--现场交底-01.png */; };
-		C08B046C1904B4BD0020E7F6 /* 按钮4--竣工验收单-01.png in Resources */ = {isa = PBXBuildFile; fileRef = C0EBB80218FFD454007E3CCB /* 按钮4--竣工验收单-01.png */; };
-		C08B046D1904B4BD0020E7F6 /* 按钮4--竣工验收单-00.png in Resources */ = {isa = PBXBuildFile; fileRef = C0EBB80118FFD454007E3CCB /* 按钮4--竣工验收单-00.png */; };
-		C08B046E1904B4BD0020E7F6 /* 按钮3--隐蔽验收单-01.png in Resources */ = {isa = PBXBuildFile; fileRef = C0EBB80018FFD454007E3CCB /* 按钮3--隐蔽验收单-01.png */; };
-		C08B04711904B4BD0020E7F6 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = C0C2963618F121FF005DA92A /* README.txt */; };
-		C08B04721904B4BD0020E7F6 /* designapp-dlk-0@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C02C41E218E2E99D00412011 /* designapp-dlk-0@2x.png */; };
-		C08B04731904B4BD0020E7F6 /* 按钮-签到-01@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0CBD0441901209800DDFFA4 /* 按钮-签到-01@2x.png */; };
-		C08B04741904B4BD0020E7F6 /* CaseCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C04B0C9618C43F6600CFD548 /* CaseCell.xib */; };
-		C08B04751904B4BD0020E7F6 /* 工地信息-白色底框2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0CBD0411901209800DDFFA4 /* 工地信息-白色底框2@2x.png */; };
-		C08B04761904B4BD0020E7F6 /* 按钮3--中期验收单-01.png in Resources */ = {isa = PBXBuildFile; fileRef = C0EBB7FE18FFD454007E3CCB /* 按钮3--中期验收单-01.png */; };
-		C08B04781904B4BD0020E7F6 /* construction_cell_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0CBD03A1901088600DDFFA4 /* construction_cell_bg@2x.png */; };
-		C08B04791904B4BD0020E7F6 /* 按钮-签到-00@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0CBD0431901209800DDFFA4 /* 按钮-签到-00@2x.png */; };
-		C08B047B1904B4BD0020E7F6 /* ZHConstructionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0CBD03C1901200A00DDFFA4 /* ZHConstructionViewController.xib */; };
-		C08B047C1904B4BD0020E7F6 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = C0C295E318F121FE005DA92A /* LICENSE.txt */; };
-		C08B047D1904B4BD0020E7F6 /* 按钮3--隐蔽验收单-00.png in Resources */ = {isa = PBXBuildFile; fileRef = C0EBB7FF18FFD454007E3CCB /* 按钮3--隐蔽验收单-00.png */; };
-		C08B047E1904B4BD0020E7F6 /* 工地信息-白色底框3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0CBD0421901209800DDFFA4 /* 工地信息-白色底框3@2x.png */; };
-		C08B047F1904B4BD0020E7F6 /* data in Resources */ = {isa = PBXBuildFile; fileRef = C056F58918E27FC4005447CA /* data */; };
-		C08B04801904B4BD0020E7F6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C04B0C3B18C43EAA00CFD548 /* Images.xcassets */; };
-		C08B04811904B4BD0020E7F6 /* mapapi.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C0CBD0A7190132AB00DDFFA4 /* mapapi.bundle */; };
-		C08B04821904B4BD0020E7F6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C04B0C2C18C43EAA00CFD548 /* InfoPlist.strings */; };
-		C08B04831904B4BD0020E7F6 /* 按钮-附加菜单-00.png in Resources */ = {isa = PBXBuildFile; fileRef = C0EBB7F718FFD454007E3CCB /* 按钮-附加菜单-00.png */; };
-		C08B04841904B4BD0020E7F6 /* 按钮3--中期验收单-00.png in Resources */ = {isa = PBXBuildFile; fileRef = C0EBB7FD18FFD454007E3CCB /* 按钮3--中期验收单-00.png */; };
-		C08B04851904B4BD0020E7F6 /* DesginerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C04B0C9918C43F6600CFD548 /* DesginerCell.xib */; };
-		C08B04861904B4BD0020E7F6 /* designapp-bg-0@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C02C41E118E2E99D00412011 /* designapp-bg-0@2x.png */; };
-		C08B04871904B4BD0020E7F6 /* 按钮1--工地信息-00.png in Resources */ = {isa = PBXBuildFile; fileRef = C0EBB7F918FFD454007E3CCB /* 按钮1--工地信息-00.png */; };
-		C08B04881904B4BD0020E7F6 /* 按钮4-待中期验收-00.png in Resources */ = {isa = PBXBuildFile; fileRef = C0CBD0221900BDAA00DDFFA4 /* 按钮4-待中期验收-00.png */; };
-		C08B048A1904B4BD0020E7F6 /* 按钮0-所有工地-01.png in Resources */ = {isa = PBXBuildFile; fileRef = C0CBD01B1900BDAA00DDFFA4 /* 按钮0-所有工地-01.png */; };
-		C08B048B1904B4BD0020E7F6 /* CHANGES.txt in Resources */ = {isa = PBXBuildFile; fileRef = C0C295D218F121FE005DA92A /* CHANGES.txt */; };
-		C08B048C1904B4BD0020E7F6 /* ProductCCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0CBD037190106AC00DDFFA4 /* ProductCCell.xib */; };
-		C08B048D1904B4BD0020E7F6 /* 标题图-工地信息@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0CBD0451901209800DDFFA4 /* 标题图-工地信息@2x.png */; };
-		C08B048E1904B4BD0020E7F6 /* 按钮5-待竣工验收-00.png in Resources */ = {isa = PBXBuildFile; fileRef = C0CBD0241900BDAA00DDFFA4 /* 按钮5-待竣工验收-00.png */; };
-		C08B048F1904B4BD0020E7F6 /* 按钮4-待中期验收-01.png in Resources */ = {isa = PBXBuildFile; fileRef = C0CBD0231900BDAA00DDFFA4 /* 按钮4-待中期验收-01.png */; };
 		C08B0498190529DF0020E7F6 /* LocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C08B0497190529DF0020E7F6 /* LocationManager.m */; };
-		C08B0499190529DF0020E7F6 /* LocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C08B0497190529DF0020E7F6 /* LocationManager.m */; };
 		C0A341FA1920A34C001290AE /* take_photo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0A341F91920A34C001290AE /* take_photo@2x.png */; };
-		C0A341FB1920A34C001290AE /* take_photo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0A341F91920A34C001290AE /* take_photo@2x.png */; };
 		C0A342031920A3F4001290AE /* 按钮-照相.png in Resources */ = {isa = PBXBuildFile; fileRef = C0A341FD1920A3F4001290AE /* 按钮-照相.png */; };
-		C0A342041920A3F4001290AE /* 按钮-照相.png in Resources */ = {isa = PBXBuildFile; fileRef = C0A341FD1920A3F4001290AE /* 按钮-照相.png */; };
 		C0A342051920A3F4001290AE /* 照相页面-bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0A341FE1920A3F4001290AE /* 照相页面-bg@2x.png */; };
-		C0A342061920A3F4001290AE /* 照相页面-bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0A341FE1920A3F4001290AE /* 照相页面-bg@2x.png */; };
 		C0A342091920A3F4001290AE /* 照相页面-小图-底图@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0A342001920A3F4001290AE /* 照相页面-小图-底图@2x.png */; };
-		C0A3420A1920A3F4001290AE /* 照相页面-小图-底图@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0A342001920A3F4001290AE /* 照相页面-小图-底图@2x.png */; };
 		C0A3420B1920A3F4001290AE /* 照相页面-按钮-上传@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0A342011920A3F4001290AE /* 照相页面-按钮-上传@2x.png */; };
-		C0A3420C1920A3F4001290AE /* 照相页面-按钮-上传@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0A342011920A3F4001290AE /* 照相页面-按钮-上传@2x.png */; };
 		C0A3420D1920A3F4001290AE /* 照相页面-按钮-取消@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0A342021920A3F4001290AE /* 照相页面-按钮-取消@2x.png */; };
-		C0A3420E1920A3F4001290AE /* 照相页面-按钮-取消@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0A342021920A3F4001290AE /* 照相页面-按钮-取消@2x.png */; };
 		C0A90888191A24330000ADFB /* Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A90887191A24330000ADFB /* Base64.m */; };
-		C0A90889191A24330000ADFB /* Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A90887191A24330000ADFB /* Base64.m */; };
 		C0B37C4419164582006B0203 /* Image.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B37C4319164582006B0203 /* Image.m */; };
 		C0B47C4D18D859F9007C6D40 /* ZHNetWorkFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B47C4C18D859F9007C6D40 /* ZHNetWorkFunction.m */; };
 		C0BC18D118D97E2C007BD139 /* SGFocusImageItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C0BC18CE18D97E2C007BD139 /* SGFocusImageItem.m */; };
@@ -327,11 +151,8 @@
 		C0C2965B18F121FF005DA92A /* PLViewBase.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C2963318F121FF005DA92A /* PLViewBase.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		C0C2965C18F121FF005DA92A /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = C0C2963618F121FF005DA92A /* README.txt */; };
 		C0C2965E18F125C2005DA92A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0C2965D18F125C2005DA92A /* OpenGLES.framework */; };
-		C0C724F31915F89100AD25E9 /* CameraImageHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C724F11915F89100AD25E9 /* CameraImageHelper.m */; };
 		C0C724F71915F8D900AD25E9 /* WKKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C724F51915F8D900AD25E9 /* WKKViewController.m */; };
-		C0C724F81915F8D900AD25E9 /* WKKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C724F51915F8D900AD25E9 /* WKKViewController.m */; };
 		C0C724F91915F8D900AD25E9 /* WKKViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0C724F61915F8D900AD25E9 /* WKKViewController.xib */; };
-		C0C724FA1915F8D900AD25E9 /* WKKViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0C724F61915F8D900AD25E9 /* WKKViewController.xib */; };
 		C0CBD0281900BDAA00DDFFA4 /* 按钮0-所有工地-00.png in Resources */ = {isa = PBXBuildFile; fileRef = C0CBD01A1900BDAA00DDFFA4 /* 按钮0-所有工地-00.png */; };
 		C0CBD0291900BDAA00DDFFA4 /* 按钮0-所有工地-01.png in Resources */ = {isa = PBXBuildFile; fileRef = C0CBD01B1900BDAA00DDFFA4 /* 按钮0-所有工地-01.png */; };
 		C0CBD02A1900BDAA00DDFFA4 /* 按钮1-今日巡场-00.png in Resources */ = {isa = PBXBuildFile; fileRef = C0CBD01C1900BDAA00DDFFA4 /* 按钮1-今日巡场-00.png */; };
@@ -360,7 +181,6 @@
 		C0E50CBC18EBE7F9008C6A0C /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E50CBB18EBE7F9008C6A0C /* LoginViewController.m */; };
 		C0E50CBF18EC0AEE008C6A0C /* XMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E50CBE18EC0AEE008C6A0C /* XMLReader.m */; };
 		C0EBAC591923097A00AE0CCE /* 按钮-历史记录@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0EBAC581923097A00AE0CCE /* 按钮-历史记录@2x.png */; };
-		C0EBAC5A1923097A00AE0CCE /* 按钮-历史记录@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0EBAC581923097A00AE0CCE /* 按钮-历史记录@2x.png */; };
 		C0EBB7F418FF7C27007E3CCB /* ZHConstructionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0EBB7F318FF7C27007E3CCB /* ZHConstructionViewController.m */; };
 		C0EBB80418FFD454007E3CCB /* 按钮-附加菜单-00.png in Resources */ = {isa = PBXBuildFile; fileRef = C0EBB7F718FFD454007E3CCB /* 按钮-附加菜单-00.png */; };
 		C0EBB80518FFD454007E3CCB /* 按钮-附加菜单-01.png in Resources */ = {isa = PBXBuildFile; fileRef = C0EBB7F818FFD454007E3CCB /* 按钮-附加菜单-01.png */; };
@@ -375,58 +195,32 @@
 		C0EBB80E18FFD454007E3CCB /* 按钮4--竣工验收单-00.png in Resources */ = {isa = PBXBuildFile; fileRef = C0EBB80118FFD454007E3CCB /* 按钮4--竣工验收单-00.png */; };
 		C0EBB80F18FFD454007E3CCB /* 按钮4--竣工验收单-01.png in Resources */ = {isa = PBXBuildFile; fileRef = C0EBB80218FFD454007E3CCB /* 按钮4--竣工验收单-01.png */; };
 		C0EEFDEE190E3A4300D8795C /* libbaidumapapi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C0EEFDED190E3A4300D8795C /* libbaidumapapi.a */; };
-		C0EEFDEF190E3A4300D8795C /* libbaidumapapi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C0EEFDED190E3A4300D8795C /* libbaidumapapi.a */; };
 		C0F1011619163CD600BF6768 /* CameraImageHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C724F11915F89100AD25E9 /* CameraImageHelper.m */; };
 		C0F4A0B8191B5A4600254E49 /* 按钮6-催款工地-00.png in Resources */ = {isa = PBXBuildFile; fileRef = C0F4A0B4191B5A4600254E49 /* 按钮6-催款工地-00.png */; };
-		C0F4A0B9191B5A4600254E49 /* 按钮6-催款工地-00.png in Resources */ = {isa = PBXBuildFile; fileRef = C0F4A0B4191B5A4600254E49 /* 按钮6-催款工地-00.png */; };
 		C0F4A0BA191B5A4600254E49 /* 按钮6-催款工地-01.png in Resources */ = {isa = PBXBuildFile; fileRef = C0F4A0B5191B5A4600254E49 /* 按钮6-催款工地-01.png */; };
-		C0F4A0BB191B5A4600254E49 /* 按钮6-催款工地-01.png in Resources */ = {isa = PBXBuildFile; fileRef = C0F4A0B5191B5A4600254E49 /* 按钮6-催款工地-01.png */; };
 		C0F4A0BC191B5A4600254E49 /* 按钮7-预警工地-00.png in Resources */ = {isa = PBXBuildFile; fileRef = C0F4A0B6191B5A4600254E49 /* 按钮7-预警工地-00.png */; };
-		C0F4A0BD191B5A4600254E49 /* 按钮7-预警工地-00.png in Resources */ = {isa = PBXBuildFile; fileRef = C0F4A0B6191B5A4600254E49 /* 按钮7-预警工地-00.png */; };
 		C0F4A0BE191B5A4600254E49 /* 按钮7-预警工地-01.png in Resources */ = {isa = PBXBuildFile; fileRef = C0F4A0B7191B5A4600254E49 /* 按钮7-预警工地-01.png */; };
-		C0F4A0BF191B5A4600254E49 /* 按钮7-预警工地-01.png in Resources */ = {isa = PBXBuildFile; fileRef = C0F4A0B7191B5A4600254E49 /* 按钮7-预警工地-01.png */; };
 		C0F4A0C2191B751800254E49 /* ZHDelayListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0F4A0C1191B751800254E49 /* ZHDelayListViewController.m */; };
-		C0F4A0C3191B751800254E49 /* ZHDelayListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0F4A0C1191B751800254E49 /* ZHDelayListViewController.m */; };
 		C0F4A0CA191B7C1B00254E49 /* ZHFineListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0F4A0C9191B7C1B00254E49 /* ZHFineListViewController.m */; };
-		C0F4A0CB191B7C1B00254E49 /* ZHFineListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0F4A0C9191B7C1B00254E49 /* ZHFineListViewController.m */; };
 		C0F4A0CD191B9D3A00254E49 /* 催款工地-白色底框@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0F4A0CC191B9D3A00254E49 /* 催款工地-白色底框@2x.png */; };
-		C0F4A0CE191B9D3A00254E49 /* 催款工地-白色底框@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0F4A0CC191B9D3A00254E49 /* 催款工地-白色底框@2x.png */; };
 		C0F4A0D1191B9F2800254E49 /* 提示符号-没完成@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0F4A0CF191B9F2800254E49 /* 提示符号-没完成@2x.png */; };
-		C0F4A0D2191B9F2800254E49 /* 提示符号-没完成@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0F4A0CF191B9F2800254E49 /* 提示符号-没完成@2x.png */; };
 		C0F4A0D3191B9F2800254E49 /* 提示符号-完成@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0F4A0D0191B9F2800254E49 /* 提示符号-完成@2x.png */; };
-		C0F4A0D4191B9F2800254E49 /* 提示符号-完成@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0F4A0D0191B9F2800254E49 /* 提示符号-完成@2x.png */; };
 		C0FD07F8190B7F20009A3A6B /* ZHDelayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0FD07F6190B7F20009A3A6B /* ZHDelayViewController.m */; };
-		C0FD07F9190B7F21009A3A6B /* ZHDelayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0FD07F6190B7F20009A3A6B /* ZHDelayViewController.m */; };
 		C0FD07FA190B7F21009A3A6B /* ZHDelayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0FD07F7190B7F20009A3A6B /* ZHDelayViewController.xib */; };
-		C0FD07FB190B7F21009A3A6B /* ZHDelayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0FD07F7190B7F20009A3A6B /* ZHDelayViewController.xib */; };
 		C0FD07FF190B9364009A3A6B /* 标题图-罚款单@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0FD07FC190B9364009A3A6B /* 标题图-罚款单@2x.png */; };
-		C0FD0800190B9364009A3A6B /* 标题图-罚款单@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0FD07FC190B9364009A3A6B /* 标题图-罚款单@2x.png */; };
 		C0FD0801190B9364009A3A6B /* 标题图-项目延期单@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0FD07FD190B9364009A3A6B /* 标题图-项目延期单@2x.png */; };
-		C0FD0802190B9364009A3A6B /* 标题图-项目延期单@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0FD07FD190B9364009A3A6B /* 标题图-项目延期单@2x.png */; };
 		C0FD0803190B9364009A3A6B /* 项目延期单-bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0FD07FE190B9364009A3A6B /* 项目延期单-bg@2x.png */; };
-		C0FD0804190B9364009A3A6B /* 项目延期单-bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0FD07FE190B9364009A3A6B /* 项目延期单-bg@2x.png */; };
 		C0FD0807190B99BD009A3A6B /* ZHOrderChangeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0FD0806190B99BD009A3A6B /* ZHOrderChangeViewController.m */; };
-		C0FD0808190B99BD009A3A6B /* ZHOrderChangeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0FD0806190B99BD009A3A6B /* ZHOrderChangeViewController.m */; };
 		C0FD080A190B9CF3009A3A6B /* 标题图-变更单@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0FD0809190B9CF3009A3A6B /* 标题图-变更单@2x.png */; };
-		C0FD080B190B9CF3009A3A6B /* 标题图-变更单@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0FD0809190B9CF3009A3A6B /* 标题图-变更单@2x.png */; };
 		C0FD080E190BA153009A3A6B /* ZHChangeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0FD080D190BA153009A3A6B /* ZHChangeViewController.m */; };
-		C0FD080F190BA153009A3A6B /* ZHChangeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0FD080D190BA153009A3A6B /* ZHChangeViewController.m */; };
 		C0FD0818190BA255009A3A6B /* 按钮-材料变更单-0@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0FD0810190BA255009A3A6B /* 按钮-材料变更单-0@2x.png */; };
-		C0FD0819190BA255009A3A6B /* 按钮-材料变更单-0@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0FD0810190BA255009A3A6B /* 按钮-材料变更单-0@2x.png */; };
 		C0FD081A190BA255009A3A6B /* 按钮-材料变更单-1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0FD0811190BA255009A3A6B /* 按钮-材料变更单-1@2x.png */; };
-		C0FD081B190BA255009A3A6B /* 按钮-材料变更单-1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0FD0811190BA255009A3A6B /* 按钮-材料变更单-1@2x.png */; };
 		C0FD081C190BA255009A3A6B /* 按钮-促销活动-0@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0FD0812190BA255009A3A6B /* 按钮-促销活动-0@2x.png */; };
-		C0FD081D190BA255009A3A6B /* 按钮-促销活动-0@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0FD0812190BA255009A3A6B /* 按钮-促销活动-0@2x.png */; };
 		C0FD081E190BA255009A3A6B /* 按钮-促销活动-1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0FD0813190BA255009A3A6B /* 按钮-促销活动-1@2x.png */; };
-		C0FD081F190BA255009A3A6B /* 按钮-促销活动-1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0FD0813190BA255009A3A6B /* 按钮-促销活动-1@2x.png */; };
 		C0FD0820190BA255009A3A6B /* 按钮-工艺变更单-0@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0FD0814190BA255009A3A6B /* 按钮-工艺变更单-0@2x.png */; };
-		C0FD0821190BA255009A3A6B /* 按钮-工艺变更单-0@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0FD0814190BA255009A3A6B /* 按钮-工艺变更单-0@2x.png */; };
 		C0FD0822190BA255009A3A6B /* 按钮-工艺变更单-1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0FD0815190BA255009A3A6B /* 按钮-工艺变更单-1@2x.png */; };
-		C0FD0823190BA255009A3A6B /* 按钮-工艺变更单-1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0FD0815190BA255009A3A6B /* 按钮-工艺变更单-1@2x.png */; };
 		C0FD0824190BA255009A3A6B /* 按钮-折项-0@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0FD0816190BA255009A3A6B /* 按钮-折项-0@2x.png */; };
-		C0FD0825190BA255009A3A6B /* 按钮-折项-0@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0FD0816190BA255009A3A6B /* 按钮-折项-0@2x.png */; };
 		C0FD0826190BA255009A3A6B /* 按钮-折项-1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0FD0817190BA255009A3A6B /* 按钮-折项-1@2x.png */; };
-		C0FD0827190BA255009A3A6B /* 按钮-折项-1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0FD0817190BA255009A3A6B /* 按钮-折项-1@2x.png */; };
 		E69D45CFB14D4C9B9FC3E797 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BEA8B749C794E529B4F8F16 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -594,7 +388,6 @@
 		C0863A1A190DEDBB00EAD2E0 /* ZHTmpeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZHTmpeViewController.xib; sourceTree = "<group>"; };
 		C0863A1F190E120B00EAD2E0 /* 标题图-临时事务单@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "标题图-临时事务单@2x.png"; sourceTree = "<group>"; };
 		C0863A20190E120B00EAD2E0 /* 临时事务单-bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "临时事务单-bg@2x.png"; sourceTree = "<group>"; };
-		C08B04941904B4BD0020E7F6 /* ShiXiaoChuang copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ShiXiaoChuang copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C08B04951904B4BD0020E7F6 /* ShiXiaoChuang copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "ShiXiaoChuang copy-Info.plist"; path = "/Users/lifeng/Documents/192.168.1.113/code/实创/ShiXiaoChuang/ShiXiaoChuang copy-Info.plist"; sourceTree = "<absolute>"; };
 		C08B0496190529DF0020E7F6 /* LocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationManager.h; sourceTree = "<group>"; };
 		C08B0497190529DF0020E7F6 /* LocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationManager.m; sourceTree = "<group>"; };
@@ -866,19 +659,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C08B04521904B4BD0020E7F6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C08B04531904B4BD0020E7F6 /* OpenGLES.framework in Frameworks */,
-				C0EEFDEF190E3A4300D8795C /* libbaidumapapi.a in Frameworks */,
-				C08B04551904B4BD0020E7F6 /* CoreGraphics.framework in Frameworks */,
-				C08B04561904B4BD0020E7F6 /* UIKit.framework in Frameworks */,
-				C08B04571904B4BD0020E7F6 /* Foundation.framework in Frameworks */,
-				C08B04581904B4BD0020E7F6 /* libPods.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -971,7 +751,6 @@
 			children = (
 				C04B0C2018C43EAA00CFD548 /* ShiXiaoChuang.app */,
 				C04B0C4118C43EAA00CFD548 /* ShiXiaoChuangTests.xctest */,
-				C08B04941904B4BD0020E7F6 /* ShiXiaoChuang copy.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1529,25 +1308,6 @@
 			productReference = C04B0C4118C43EAA00CFD548 /* ShiXiaoChuangTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		C08B03F91904B4BD0020E7F6 /* ShiXiaoChuang copy */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C08B04911904B4BD0020E7F6 /* Build configuration list for PBXNativeTarget "ShiXiaoChuang copy" */;
-			buildPhases = (
-				C08B03FA1904B4BD0020E7F6 /* Check Pods Manifest.lock */,
-				C08B03FB1904B4BD0020E7F6 /* Sources */,
-				C08B04521904B4BD0020E7F6 /* Frameworks */,
-				C08B04591904B4BD0020E7F6 /* Resources */,
-				C08B04901904B4BD0020E7F6 /* Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "ShiXiaoChuang copy";
-			productName = Designer;
-			productReference = C08B04941904B4BD0020E7F6 /* ShiXiaoChuang copy.app */;
-			productType = "com.apple.product-type.application";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -1558,6 +1318,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "zeng hui";
 				TargetAttributes = {
+					C04B0C1F18C43EAA00CFD548 = {
+						DevelopmentTeam = 9P837Q5PSM;
+					};
 					C04B0C4018C43EAA00CFD548 = {
 						TestTargetID = C04B0C1F18C43EAA00CFD548;
 					};
@@ -1578,7 +1341,6 @@
 			targets = (
 				C04B0C1F18C43EAA00CFD548 /* ShiXiaoChuang */,
 				C04B0C4018C43EAA00CFD548 /* ShiXiaoChuangTests */,
-				C08B03F91904B4BD0020E7F6 /* ShiXiaoChuang copy */,
 			);
 		};
 /* End PBXProject section */
@@ -1700,113 +1462,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C08B04591904B4BD0020E7F6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C044E2A61907BFEF0021858C /* 表格-标题黄线.png in Resources */,
-				C0F4A0CE191B9D3A00254E49 /* 催款工地-白色底框@2x.png in Resources */,
-				C08B045A1904B4BD0020E7F6 /* 工地信息-白色底框1@2x.png in Resources */,
-				C077C24C190912BE00981170 /* 标题图-基材验收@2x.png in Resources */,
-				C0EBAC5A1923097A00AE0CCE /* 按钮-历史记录@2x.png in Resources */,
-				C08B045C1904B4BD0020E7F6 /* AccessCell.xib in Resources */,
-				C08B045D1904B4BD0020E7F6 /* 按钮1-今日巡场-00.png in Resources */,
-				C077C2271908AFF000981170 /* 大五角星-完成.png in Resources */,
-				C0FD0804190B9364009A3A6B /* 项目延期单-bg@2x.png in Resources */,
-				C077C24A190912BE00981170 /* 按钮-返回1@2x.png in Resources */,
-				C0FD0821190BA255009A3A6B /* 按钮-工艺变更单-0@2x.png in Resources */,
-				C0863A1E190DEDBB00EAD2E0 /* ZHTmpeViewController.xib in Resources */,
-				C0F4A0BF191B5A4600254E49 /* 按钮7-预警工地-01.png in Resources */,
-				C077C2291908AFF000981170 /* 大五角星-未完成.png in Resources */,
-				C0FD081F190BA255009A3A6B /* 按钮-促销活动-1@2x.png in Resources */,
-				C08B045E1904B4BD0020E7F6 /* 按钮2--现场交底-00.png in Resources */,
-				C0FD081B190BA255009A3A6B /* 按钮-材料变更单-1@2x.png in Resources */,
-				C08B045F1904B4BD0020E7F6 /* 按钮2-待交底-01.png in Resources */,
-				C0F4A0BD191B5A4600254E49 /* 按钮7-预警工地-00.png in Resources */,
-				C0F4A0BB191B5A4600254E49 /* 按钮6-催款工地-01.png in Resources */,
-				C0C724FA1915F8D900AD25E9 /* WKKViewController.xib in Resources */,
-				C0FD0827190BA255009A3A6B /* 按钮-折项-1@2x.png in Resources */,
-				C08B04601904B4BD0020E7F6 /* 提醒信息.png in Resources */,
-				C08B04611904B4BD0020E7F6 /* 按钮3-待隐蔽验收-00.png in Resources */,
-				C08B04621904B4BD0020E7F6 /* 按钮1-今日巡场-01.png in Resources */,
-				C08B04631904B4BD0020E7F6 /* 按钮-附加菜单-01.png in Resources */,
-				C0F4A0D4191B9F2800254E49 /* 提示符号-完成@2x.png in Resources */,
-				C044E2AD1907DD8F0021858C /* 按钮-提交表单@2x.png in Resources */,
-				C08B04641904B4BD0020E7F6 /* 按钮3-待隐蔽验收-01.png in Resources */,
-				C044E2B31907DD8F0021858C /* 标题图-隐蔽验收.png in Resources */,
-				C08B04651904B4BD0020E7F6 /* 按钮5-待竣工验收-01.png in Resources */,
-				C044E2B51907DD8F0021858C /* 标题图-中期验收.png in Resources */,
-				C08B04661904B4BD0020E7F6 /* 按钮2-待交底-00.png in Resources */,
-				C08B04671904B4BD0020E7F6 /* DesginerCellV.xib in Resources */,
-				C08B04681904B4BD0020E7F6 /* theme.plist in Resources */,
-				C08B04691904B4BD0020E7F6 /* 按钮1--工地信息-01.png in Resources */,
-				C0A342061920A3F4001290AE /* 照相页面-bg@2x.png in Resources */,
-				C0FD0800190B9364009A3A6B /* 标题图-罚款单@2x.png in Resources */,
-				C0863A22190E120B00EAD2E0 /* 标题图-临时事务单@2x.png in Resources */,
-				C0A3420C1920A3F4001290AE /* 照相页面-按钮-上传@2x.png in Resources */,
-				C08B046A1904B4BD0020E7F6 /* 按钮0-所有工地-00.png in Resources */,
-				C08B046B1904B4BD0020E7F6 /* 按钮2--现场交底-01.png in Resources */,
-				C044E2AF1907DD8F0021858C /* 标题图-竣工验收.png in Resources */,
-				C08B046C1904B4BD0020E7F6 /* 按钮4--竣工验收单-01.png in Resources */,
-				C077977519331A1400087842 /* delay_reson.plist in Resources */,
-				C08B046D1904B4BD0020E7F6 /* 按钮4--竣工验收单-00.png in Resources */,
-				C077C2551909281900981170 /* 标题图-主材验收@2x.png in Resources */,
-				C08B046E1904B4BD0020E7F6 /* 按钮3--隐蔽验收单-01.png in Resources */,
-				C0A3420A1920A3F4001290AE /* 照相页面-小图-底图@2x.png in Resources */,
-				C077C2451908FD1900981170 /* ZHBaseMaterialsViewController.xib in Resources */,
-				C08B04711904B4BD0020E7F6 /* README.txt in Resources */,
-				C08B04721904B4BD0020E7F6 /* designapp-dlk-0@2x.png in Resources */,
-				C08B04731904B4BD0020E7F6 /* 按钮-签到-01@2x.png in Resources */,
-				C08B04741904B4BD0020E7F6 /* CaseCell.xib in Resources */,
-				C08B04751904B4BD0020E7F6 /* 工地信息-白色底框2@2x.png in Resources */,
-				C08B04761904B4BD0020E7F6 /* 按钮3--中期验收单-01.png in Resources */,
-				C077C23B1908DA2C00981170 /* 左菜单-allbg@2x.png in Resources */,
-				C0FD080B190B9CF3009A3A6B /* 标题图-变更单@2x.png in Resources */,
-				C05A23B419174CA700DB7DCC /* construction_cell_bg_1@2x.png in Resources */,
-				C0FD07FB190B7F21009A3A6B /* ZHDelayViewController.xib in Resources */,
-				C08B04781904B4BD0020E7F6 /* construction_cell_bg@2x.png in Resources */,
-				C0FD0823190BA255009A3A6B /* 按钮-工艺变更单-1@2x.png in Resources */,
-				C0F4A0B9191B5A4600254E49 /* 按钮6-催款工地-00.png in Resources */,
-				C08B04791904B4BD0020E7F6 /* 按钮-签到-00@2x.png in Resources */,
-				C077C22C1908CE9E00981170 /* 左菜单-allbg-1@2x.png in Resources */,
-				C077C23E1908E99200981170 /* 标题图-所有工地.png in Resources */,
-				C08B047B1904B4BD0020E7F6 /* ZHConstructionViewController.xib in Resources */,
-				C08B047C1904B4BD0020E7F6 /* LICENSE.txt in Resources */,
-				C08B047D1904B4BD0020E7F6 /* 按钮3--隐蔽验收单-00.png in Resources */,
-				C077C24E190912BE00981170 /* 表格-标题黄线-1@2x.png in Resources */,
-				C08B047E1904B4BD0020E7F6 /* 工地信息-白色底框3@2x.png in Resources */,
-				C08B047F1904B4BD0020E7F6 /* data in Resources */,
-				C08B04801904B4BD0020E7F6 /* Images.xcassets in Resources */,
-				C0FD081D190BA255009A3A6B /* 按钮-促销活动-0@2x.png in Resources */,
-				C08B04811904B4BD0020E7F6 /* mapapi.bundle in Resources */,
-				C08B04821904B4BD0020E7F6 /* InfoPlist.strings in Resources */,
-				C0A342041920A3F4001290AE /* 按钮-照相.png in Resources */,
-				C08B04831904B4BD0020E7F6 /* 按钮-附加菜单-00.png in Resources */,
-				C0FD0802190B9364009A3A6B /* 标题图-项目延期单@2x.png in Resources */,
-				C08B04841904B4BD0020E7F6 /* 按钮3--中期验收单-00.png in Resources */,
-				C0FD0819190BA255009A3A6B /* 按钮-材料变更单-0@2x.png in Resources */,
-				C044E2B11907DD8F0021858C /* 标题图-现场交底.png in Resources */,
-				C077C2381908DA2000981170 /* 左菜单-allbg@2x.png in Resources */,
-				C08B04851904B4BD0020E7F6 /* DesginerCell.xib in Resources */,
-				C08B04861904B4BD0020E7F6 /* designapp-bg-0@2x.png in Resources */,
-				C08B04871904B4BD0020E7F6 /* 按钮1--工地信息-00.png in Resources */,
-				C0A3420E1920A3F4001290AE /* 照相页面-按钮-取消@2x.png in Resources */,
-				C0851547191C724500621EA5 /* CuiKuanCell.xib in Resources */,
-				C08B04881904B4BD0020E7F6 /* 按钮4-待中期验收-00.png in Resources */,
-				C08B048A1904B4BD0020E7F6 /* 按钮0-所有工地-01.png in Resources */,
-				C08B048B1904B4BD0020E7F6 /* CHANGES.txt in Resources */,
-				C0F4A0D2191B9F2800254E49 /* 提示符号-没完成@2x.png in Resources */,
-				C08B048C1904B4BD0020E7F6 /* ProductCCell.xib in Resources */,
-				C077C2351908D9D200981170 /* 实小创-allbg@2x.png in Resources */,
-				C0A341FB1920A34C001290AE /* take_photo@2x.png in Resources */,
-				C08B048D1904B4BD0020E7F6 /* 标题图-工地信息@2x.png in Resources */,
-				C0FD0825190BA255009A3A6B /* 按钮-折项-0@2x.png in Resources */,
-				C0863A24190E120B00EAD2E0 /* 临时事务单-bg@2x.png in Resources */,
-				C08B048E1904B4BD0020E7F6 /* 按钮5-待竣工验收-00.png in Resources */,
-				C08B048F1904B4BD0020E7F6 /* 按钮4-待中期验收-01.png in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
@@ -1823,36 +1478,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		C08B03FA1904B4BD0020E7F6 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		C08B04901904B4BD0020E7F6 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C2253C62560747C888C93333 /* Copy Pods Resources */ = {
@@ -1991,113 +1616,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C08B03FB1904B4BD0020E7F6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C08B03FC1904B4BD0020E7F6 /* BejoyViewController.m in Sources */,
-				C08B03FD1904B4BD0020E7F6 /* SGFocusImageItem.m in Sources */,
-				C0F4A0C3191B751800254E49 /* ZHDelayListViewController.m in Sources */,
-				C0C724F31915F89100AD25E9 /* CameraImageHelper.m in Sources */,
-				C08B03FE1904B4BD0020E7F6 /* DesginerCell.m in Sources */,
-				C08B03FF1904B4BD0020E7F6 /* Theme.m in Sources */,
-				C08B04001904B4BD0020E7F6 /* glues_mipmap.c in Sources */,
-				C08B04011904B4BD0020E7F6 /* ZHManageCell.m in Sources */,
-				C08B04021904B4BD0020E7F6 /* NavigationViewController.m in Sources */,
-				C08B04031904B4BD0020E7F6 /* NewsCell.m in Sources */,
-				C077C2431908FD1900981170 /* ZHBaseMaterialsViewController.m in Sources */,
-				C08B04041904B4BD0020E7F6 /* TableView.m in Sources */,
-				C08B04051904B4BD0020E7F6 /* PLSceneElement.m in Sources */,
-				C08B04061904B4BD0020E7F6 /* UIColor+Color.m in Sources */,
-				C08B04071904B4BD0020E7F6 /* PLSceneElementBase.m in Sources */,
-				C08B04081904B4BD0020E7F6 /* User.m in Sources */,
-				C08B04091904B4BD0020E7F6 /* ZHViewController.m in Sources */,
-				C08B040A1904B4BD0020E7F6 /* glues_project.c in Sources */,
-				C08B040B1904B4BD0020E7F6 /* TypeTableView.m in Sources */,
-				C08B040C1904B4BD0020E7F6 /* CaseCell.m in Sources */,
-				C08B040D1904B4BD0020E7F6 /* ZHAppDelegate.mm in Sources */,
-				C077C2521909278200981170 /* ZHMainMaterialsViewController.m in Sources */,
-				C08B040E1904B4BD0020E7F6 /* PLLog.m in Sources */,
-				C08B040F1904B4BD0020E7F6 /* PLIntersection.m in Sources */,
-				C08B04101904B4BD0020E7F6 /* FlipBoardNavigationController.m in Sources */,
-				C08B04111904B4BD0020E7F6 /* PLTransitionFadeOut.m in Sources */,
-				C08B04121904B4BD0020E7F6 /* ProductCCell.m in Sources */,
-				C08B04131904B4BD0020E7F6 /* Session.m in Sources */,
-				C08B04141904B4BD0020E7F6 /* PLTransitionFadeIn.m in Sources */,
-				C08B04151904B4BD0020E7F6 /* Message.m in Sources */,
-				C08B04161904B4BD0020E7F6 /* NSDate+Helper.m in Sources */,
-				C08B0499190529DF0020E7F6 /* LocationManager.m in Sources */,
-				C0851545191C724500621EA5 /* CuiKuanCell.m in Sources */,
-				C08B04171904B4BD0020E7F6 /* NSString+MD5.m in Sources */,
-				C08B04181904B4BD0020E7F6 /* glues_registry.c in Sources */,
-				C08B04191904B4BD0020E7F6 /* PLCylindricalPanorama.m in Sources */,
-				C08B041A1904B4BD0020E7F6 /* BaseTableViewController.m in Sources */,
-				C08B041B1904B4BD0020E7F6 /* PLPanoramaBase.m in Sources */,
-				C08B041C1904B4BD0020E7F6 /* ZHFileCache.m in Sources */,
-				C0F4A0CB191B7C1B00254E49 /* ZHFineListViewController.m in Sources */,
-				C08B041D1904B4BD0020E7F6 /* Cookie.m in Sources */,
-				C08B041E1904B4BD0020E7F6 /* ZHDBData.m in Sources */,
-				C08B041F1904B4BD0020E7F6 /* ZHNetWorkFunction.m in Sources */,
-				C08B04201904B4BD0020E7F6 /* ZHConstructionViewController.m in Sources */,
-				C08B04211904B4BD0020E7F6 /* PLUtils.m in Sources */,
-				C08B04221904B4BD0020E7F6 /* PLObjectBase.m in Sources */,
-				C08B04231904B4BD0020E7F6 /* PLOpenGLSupport.m in Sources */,
-				C08B04241904B4BD0020E7F6 /* ZHDBControl.m in Sources */,
-				C08B04251904B4BD0020E7F6 /* PLVector3.m in Sources */,
-				C08B04261904B4BD0020E7F6 /* IIWrapController.m in Sources */,
-				C08B04271904B4BD0020E7F6 /* main.m in Sources */,
-				C08B04281904B4BD0020E7F6 /* UIButton+Utilities.m in Sources */,
-				C08B04291904B4BD0020E7F6 /* PLJSONLoader.m in Sources */,
-				C08B042A1904B4BD0020E7F6 /* ZHPassDataJSON.m in Sources */,
-				C08B042B1904B4BD0020E7F6 /* ActivityIndicatorView.m in Sources */,
-				C08B042C1904B4BD0020E7F6 /* Button.m in Sources */,
-				C08B042D1904B4BD0020E7F6 /* PLSpherical2Panorama.m in Sources */,
-				C08B042E1904B4BD0020E7F6 /* ZHView.m in Sources */,
-				C08B042F1904B4BD0020E7F6 /* PLTransitionFadeBase.m in Sources */,
-				C08B04301904B4BD0020E7F6 /* ZHNavigationViewController.m in Sources */,
-				C08B04311904B4BD0020E7F6 /* PLTransition.m in Sources */,
-				C0C724F81915F8D900AD25E9 /* WKKViewController.m in Sources */,
-				C08B04321904B4BD0020E7F6 /* IISideController.m in Sources */,
-				C08B04331904B4BD0020E7F6 /* AccessCell.m in Sources */,
-				C0FD0808190B99BD009A3A6B /* ZHOrderChangeViewController.m in Sources */,
-				C08B04341904B4BD0020E7F6 /* PLCubicPanorama.m in Sources */,
-				C08B04351904B4BD0020E7F6 /* XMLReader.m in Sources */,
-				C08B04361904B4BD0020E7F6 /* PLView.m in Sources */,
-				C0FD07F9190B7F21009A3A6B /* ZHDelayViewController.m in Sources */,
-				C0A90889191A24330000ADFB /* Base64.m in Sources */,
-				C08B04371904B4BD0020E7F6 /* PLSphericalPanorama.m in Sources */,
-				C08B04381904B4BD0020E7F6 /* ImageDownloader.m in Sources */,
-				C08B04391904B4BD0020E7F6 /* PLCamera.m in Sources */,
-				C08B043A1904B4BD0020E7F6 /* PLTexture.m in Sources */,
-				C08B043B1904B4BD0020E7F6 /* IIViewDeckController.m in Sources */,
-				C08B043C1904B4BD0020E7F6 /* ImageView.m in Sources */,
-				C08B043E1904B4BD0020E7F6 /* NSDate-Utilities.m in Sources */,
-				C08B043F1904B4BD0020E7F6 /* NetWork.m in Sources */,
-				C08B04401904B4BD0020E7F6 /* TableViewController.m in Sources */,
-				C08B04411904B4BD0020E7F6 /* glues_error.c in Sources */,
-				C08B04421904B4BD0020E7F6 /* SGFocusImageFrame.m in Sources */,
-				C085154B191CBF1200621EA5 /* ZHLicenseViewController.m in Sources */,
-				C08B04431904B4BD0020E7F6 /* PLRenderableElementBase.m in Sources */,
-				C0851553191CCA9800621EA5 /* ZHBiShuiCheckViewController.m in Sources */,
-				C08B04441904B4BD0020E7F6 /* PLViewBase.m in Sources */,
-				C08B04451904B4BD0020E7F6 /* PLObject.m in Sources */,
-				C08B04461904B4BD0020E7F6 /* PLScene.m in Sources */,
-				C08B04471904B4BD0020E7F6 /* PLMath.m in Sources */,
-				C0863A1C190DEDBB00EAD2E0 /* ZHTmpeViewController.m in Sources */,
-				C08B04481904B4BD0020E7F6 /* DesginerCellV.m in Sources */,
-				C08B04491904B4BD0020E7F6 /* PdfPopoverController.m in Sources */,
-				C08B044A1904B4BD0020E7F6 /* CommonMethod.m in Sources */,
-				C08B044B1904B4BD0020E7F6 /* LoginViewController.m in Sources */,
-				C08B044C1904B4BD0020E7F6 /* PLImage.m in Sources */,
-				C08B044D1904B4BD0020E7F6 /* PLRenderer.m in Sources */,
-				C08B044E1904B4BD0020E7F6 /* PLHotspot.m in Sources */,
-				C08B044F1904B4BD0020E7F6 /* PendingOperations.m in Sources */,
-				C08B04501904B4BD0020E7F6 /* BaseViewController.m in Sources */,
-				C0FD080F190BA153009A3A6B /* ZHChangeViewController.m in Sources */,
-				C08B04511904B4BD0020E7F6 /* glues_quad.c in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -2209,8 +1727,8 @@
 				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Feng Lee (MU7VAW8FS3)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Feng Lee (MU7VAW8FS3)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Designer/ShiXiaoChuang-Prefix.pch";
 				INFOPLIST_FILE = "Designer/ShiXiaoChuang-Info.plist";
@@ -2221,6 +1739,7 @@
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = ShiXiaoChuang;
+				PROVISIONING_PROFILE = "";
 				VALID_ARCHS = "armv7 armv7s armv64";
 				WRAPPER_EXTENSION = app;
 			};
@@ -2234,6 +1753,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Beijing Vision Bejoy Media Technology Co., Ltd";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Beijing Vision Bejoy Media Technology Co., Ltd";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Designer/ShiXiaoChuang-Prefix.pch";
 				INFOPLIST_FILE = "Designer/ShiXiaoChuang-Info.plist";
@@ -2244,6 +1764,7 @@
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = ShiXiaoChuang;
+				PROVISIONING_PROFILE = "2F6DB9F6-0B65-4C74-8351-A46E20ED2454";
 				VALID_ARCHS = "armv7 armv7s armv64";
 				WRAPPER_EXTENSION = app;
 			};
@@ -2291,57 +1812,6 @@
 			};
 			name = Release;
 		};
-		C08B04921904B4BD0020E7F6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6585ABEA1BAA4E4784634C92 /* Pods.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD)";
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Designer/ShiXiaoChuang-Prefix.pch";
-				INFOPLIST_FILE = "ShiXiaoChuang copy-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					/Users/lifeng/github/Designer/Designer/Classes/libWeiboSDK,
-					/Users/lifeng/github/Designer/Designer/Classes/SDKExport,
-					/Users/lifeng/Documents/192.168.1.113/code/Designer/Designer/Classes/libWeiboSDK,
-					/Users/lifeng/Documents/192.168.1.113/code/Designer/Designer/Classes/SDKExport,
-					"$(PROJECT_DIR)/Designer/Classes/View/Release-iphonesimulator",
-					"$(PROJECT_DIR)/Designer/Classes/Unit/Release-iphoneos",
-				);
-				PRODUCT_NAME = "ShiXiaoChuang copy";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Debug;
-		};
-		C08B04931904B4BD0020E7F6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6585ABEA1BAA4E4784634C92 /* Pods.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD)";
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Beijing Vision Bejoy Media Technology Co., Ltd";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Designer/ShiXiaoChuang-Prefix.pch";
-				INFOPLIST_FILE = "ShiXiaoChuang copy-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					/Users/lifeng/github/Designer/Designer/Classes/libWeiboSDK,
-					/Users/lifeng/github/Designer/Designer/Classes/SDKExport,
-					/Users/lifeng/Documents/192.168.1.113/code/Designer/Designer/Classes/libWeiboSDK,
-					/Users/lifeng/Documents/192.168.1.113/code/Designer/Designer/Classes/SDKExport,
-					"$(PROJECT_DIR)/Designer/Classes/View/Release-iphonesimulator",
-					"$(PROJECT_DIR)/Designer/Classes/Unit/Release-iphoneos",
-				);
-				PRODUCT_NAME = "ShiXiaoChuang copy";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
 		C0C199AD1972863A009D2456 /* Distribution */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2383,7 +1853,8 @@
 				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Beijing Vision Bejoy Media Technology Co., Ltd";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Designer/ShiXiaoChuang-Prefix.pch";
 				INFOPLIST_FILE = "Designer/ShiXiaoChuang-Info.plist";
@@ -2394,6 +1865,7 @@
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = ShiXiaoChuang;
+				PROVISIONING_PROFILE = "";
 				VALID_ARCHS = "armv7 armv7s armv64";
 				WRAPPER_EXTENSION = app;
 			};
@@ -2415,32 +1887,6 @@
 				PRODUCT_NAME = ShiXiaoChuangTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
-			};
-			name = Distribution;
-		};
-		C0C199B01972863A009D2456 /* Distribution */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6585ABEA1BAA4E4784634C92 /* Pods.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD)";
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Beijing Vision Bejoy Media Technology Co., Ltd";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Designer/ShiXiaoChuang-Prefix.pch";
-				INFOPLIST_FILE = "ShiXiaoChuang copy-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					/Users/lifeng/github/Designer/Designer/Classes/libWeiboSDK,
-					/Users/lifeng/github/Designer/Designer/Classes/SDKExport,
-					/Users/lifeng/Documents/192.168.1.113/code/Designer/Designer/Classes/libWeiboSDK,
-					/Users/lifeng/Documents/192.168.1.113/code/Designer/Designer/Classes/SDKExport,
-					"$(PROJECT_DIR)/Designer/Classes/View/Release-iphonesimulator",
-					"$(PROJECT_DIR)/Designer/Classes/Unit/Release-iphoneos",
-				);
-				PRODUCT_NAME = "ShiXiaoChuang copy";
-				WRAPPER_EXTENSION = app;
 			};
 			name = Distribution;
 		};
@@ -2473,16 +1919,6 @@
 				C04B0C5618C43EAA00CFD548 /* Debug */,
 				C04B0C5718C43EAA00CFD548 /* Release */,
 				C0C199AF1972863A009D2456 /* Distribution */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C08B04911904B4BD0020E7F6 /* Build configuration list for PBXNativeTarget "ShiXiaoChuang copy" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C08B04921904B4BD0020E7F6 /* Debug */,
-				C08B04931904B4BD0020E7F6 /* Release */,
-				C0C199B01972863A009D2456 /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

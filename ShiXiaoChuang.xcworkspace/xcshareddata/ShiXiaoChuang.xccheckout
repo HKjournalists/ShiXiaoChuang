@@ -5,41 +5,36 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>86684D8C-C98F-4404-B618-77E784D81C23</string>
+	<string>535A5D9A-23FB-40DC-AE87-28CC4C205C34</string>
 	<key>IDESourceControlProjectName</key>
-	<string>shixiaochuang</string>
+	<string>ShiXiaoChuang</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>8B6C1F53-B3D3-4986-8778-24F97EB0DD0A</key>
-		<string>svn://192.168.1.113</string>
+		<key>D40FD0396EF99ED59ABECBDB7C41FBDBCBAD217B</key>
+		<string>https://github.com/zhzenghui/ShiXiaoChuang.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>code/实创/ShiXiaoChuang/ShiXiaoChuang.xcworkspace</string>
+	<string>ShiXiaoChuang.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>8B6C1F53-B3D3-4986-8778-24F97EB0DD0A</key>
-		<string>../../../..</string>
-	</dict>
-	<key>IDESourceControlProjectRepositoryRootDictionary</key>
-	<dict>
-		<key>8B6C1F53-B3D3-4986-8778-24F97EB0DD0A</key>
-		<string>svn://192.168.1.113</string>
+		<key>D40FD0396EF99ED59ABECBDB7C41FBDBCBAD217B</key>
+		<string>..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>svn://192.168.1.113/code/%E5%AE%9E%E5%88%9B/ShiXiaoChuang/shixiaochuang.xcworkspace</string>
+	<string>https://github.com/zhzenghui/ShiXiaoChuang.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>8B6C1F53-B3D3-4986-8778-24F97EB0DD0A</string>
+	<string>D40FD0396EF99ED59ABECBDB7C41FBDBCBAD217B</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
-			<string>public.vcs.subversion</string>
+			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>8B6C1F53-B3D3-4986-8778-24F97EB0DD0A</string>
+			<string>D40FD0396EF99ED59ABECBDB7C41FBDBCBAD217B</string>
 			<key>IDESourceControlWCCName</key>
-			<string>192.168.1.113</string>
+			<string>ShiXiaoChuang</string>
 		</dict>
 	</array>
 </dict>

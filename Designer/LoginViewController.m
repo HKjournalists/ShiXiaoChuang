@@ -288,6 +288,16 @@
     [d setValue:[passwordTextField.text md5] forKey:@"timestmp"];
     [d setValue:d[@"Name"][@"text"] forKey:@"account"];
     [d setValue:[NSDate date] forKey:@"date"];
+
+    
+    
+    
+    [Cookie setCookie:@"Lat" value:d[@"Lat"][@"text"]];
+    [Cookie setCookie:@"Lng" value:d[@"Lng"][@"text"]];
+
+      
+      
+    
     
     [Cookie setCookie:nameTextField.text value:d];
     [Cookie setCookie:KCurrentUser value:nameTextField.text];
@@ -507,7 +517,7 @@
     
     
 #ifdef DEBUG
-    nameTextField.text = @"qikaikuan";
+    nameTextField.text = @"daiyichang";
     passwordTextField.text = @"1";
 #endif
     
