@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0500"
+   LastUpgradeVersion = "0510"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "97ECE42F63F04F96A605A86C"
+               BlueprintIdentifier = "C2C33CBA785D4E389E135244"
                BuildableName = "libPods-EasyTableView.a"
                BlueprintName = "Pods-EasyTableView"
                ReferencedContainer = "container:Pods.xcodeproj">

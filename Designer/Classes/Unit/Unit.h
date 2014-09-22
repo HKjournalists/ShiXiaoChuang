@@ -134,11 +134,11 @@ typedef enum {
 #define KLongDuration 1
 
 
-#ifdef DEBUG
-#define KHomeUrl @"http://124.202.145.74:8815/"
-#else
+//#ifdef DEBUG
+//#define KHomeUrl @"http://124.202.145.74:8815/"
+//#else
 #define KHomeUrl @"http://oa.sitrust.cn:8001/"
-#endif
+//#endif
 
 
 

@@ -112,6 +112,7 @@
 		C0B47C4D18D859F9007C6D40 /* ZHNetWorkFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B47C4C18D859F9007C6D40 /* ZHNetWorkFunction.m */; };
 		C0BC18D118D97E2C007BD139 /* SGFocusImageItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C0BC18CE18D97E2C007BD139 /* SGFocusImageItem.m */; };
 		C0BC18D218D97E2C007BD139 /* SGFocusImageFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = C0BC18D018D97E2C007BD139 /* SGFocusImageFrame.m */; };
+		C0BCDE6719CFE22F0006C775 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0BCDE6619CFE22F0006C775 /* MessageUI.framework */; };
 		C0BDC370192EE66F00184C54 /* ZHPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C0BDC36F192EE66F00184C54 /* ZHPickerView.m */; };
 		C0C2963718F121FF005DA92A /* CHANGES.txt in Resources */ = {isa = PBXBuildFile; fileRef = C0C295D218F121FE005DA92A /* CHANGES.txt */; };
 		C0C2963818F121FF005DA92A /* glues_error.c in Sources */ = {isa = PBXBuildFile; fileRef = C0C295D618F121FE005DA92A /* glues_error.c */; };
@@ -409,6 +410,7 @@
 		C0BC18CE18D97E2C007BD139 /* SGFocusImageItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGFocusImageItem.m; sourceTree = "<group>"; };
 		C0BC18CF18D97E2C007BD139 /* SGFocusImageFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGFocusImageFrame.h; sourceTree = "<group>"; };
 		C0BC18D018D97E2C007BD139 /* SGFocusImageFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGFocusImageFrame.m; sourceTree = "<group>"; };
+		C0BCDE6619CFE22F0006C775 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		C0BDC36E192EE66F00184C54 /* ZHPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHPickerView.h; sourceTree = "<group>"; };
 		C0BDC36F192EE66F00184C54 /* ZHPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHPickerView.m; sourceTree = "<group>"; };
 		C0C295D218F121FE005DA92A /* CHANGES.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CHANGES.txt; sourceTree = "<group>"; };
@@ -640,6 +642,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0BCDE6719CFE22F0006C775 /* MessageUI.framework in Frameworks */,
 				C0C2965E18F125C2005DA92A /* OpenGLES.framework in Frameworks */,
 				C0EEFDEE190E3A4300D8795C /* libbaidumapapi.a in Frameworks */,
 				C04B0C2618C43EAA00CFD548 /* CoreGraphics.framework in Frameworks */,
@@ -758,6 +761,7 @@
 		C04B0C2218C43EAA00CFD548 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C0BCDE6619CFE22F0006C775 /* MessageUI.framework */,
 				C0C2965D18F125C2005DA92A /* OpenGLES.framework */,
 				C04B0C2318C43EAA00CFD548 /* Foundation.framework */,
 				C04B0C2518C43EAA00CFD548 /* CoreGraphics.framework */,

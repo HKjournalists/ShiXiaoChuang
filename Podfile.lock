@@ -26,6 +26,7 @@ PODS:
     - FMDB/common
   - JSONKit (1.5pre)
   - OpenUDID (1.0.0)
+  - PLCrashReporter (1.2-rc5)
   - Reachability (3.0.0)
   - RegexKitLite (4.0)
   - SDWebImage (3.6):
@@ -38,8 +39,9 @@ DEPENDENCIES:
   - AFNetworking
   - EasyTableView
   - FMDB
-  - JSONKit (~> 1.4)
+  - JSONKit (~> 1.5pre)
   - OpenUDID
+  - PLCrashReporter (~> 1.2-rc5)
   - Reachability (~> 3.0.0)
   - RegexKitLite
   - SDWebImage
@@ -47,15 +49,16 @@ DEPENDENCIES:
   - SVPullToRefresh
 
 SPEC CHECKSUMS:
-  AFNetworking: dd8c1868e57451e3d17ebd3516f2a8c16f9646fe
-  EasyTableView: 5d6f13647b9f381559bda84995e9e257541cae1f
-  FMDB: e0dd09464b4e1a1cd7fa51ea835ae821b5656865
-  JSONKit: b1f52f3f522b8602307769511d4fb47c6f856159
-  OpenUDID: 04a7c560c47869bc5194820e3b529d4504cc0296
-  Reachability: 500bd76bf6cd8ff2c6fb715fc5f44ef6e4c024f2
-  RegexKitLite: b16f029b518614394438e17b7d1df8bfa1e5a81e
-  SDWebImage: 7eb273e54ca8a2e506ad9bd5e80c35b2a4d7c95e
-  SVProgressHUD: 5e10939a296debf5fe5a5895eda9539b8b2114f1
-  SVPullToRefresh: 61a0e4bd12bd6f8e3465909810b0fbeb1a28d5f2
+  AFNetworking: 68e1959e25ba8fccd98a5d94b8b5e6c4a25e7bd7
+  EasyTableView: 707b1d7860c53ee0208c68da2a214a1e6a2633b7
+  FMDB: f6f4511ad1e9ace38e9b6f4d83c2cddaabf98ea6
+  JSONKit: efef3bbd3372ff33f96b9c6f34cf4fe18e74ab69
+  OpenUDID: 5a23b7477755efc2d7871b57aa79ba3089c40b74
+  PLCrashReporter: 979cd3c5bda33655f4df58fa6219d067183d7a7e
+  Reachability: d369b8d7d33730a4bb71d0f601e287da9867c9dd
+  RegexKitLite: c0e4c12e6e7de0769f3a3ed679f0f61604170661
+  SDWebImage: c6989652c1cdf27cbdf3f56957e2030f825af5bc
+  SVProgressHUD: 5034c6e22b8c2ca3e09402e48d41ed0340aa1c50
+  SVPullToRefresh: d5161ebc833a38b465364412e5e307ca80bbb190
 
-COCOAPODS: 0.29.0
+COCOAPODS: 0.33.1
