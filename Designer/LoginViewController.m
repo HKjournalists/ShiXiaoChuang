@@ -517,8 +517,8 @@
     
     
 #ifdef DEBUG
-    nameTextField.text = @"daiyichang";
-    passwordTextField.text = @"1";
+    nameTextField.text = @"baiyibing";
+    passwordTextField.text = @"123456";
 #endif
     
 }
