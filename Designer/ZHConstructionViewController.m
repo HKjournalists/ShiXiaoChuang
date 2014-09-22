@@ -571,7 +571,8 @@
 -(void)startFollowing
 {
     NSLog(@"进入跟随态");
-//    _baidu_MapView.showsUserLocation = NO;
+
+    _baidu_MapView.showsUserLocation = NO;
     _baidu_MapView.userTrackingMode = BMKUserTrackingModeNone;
     _baidu_MapView.showsUserLocation = YES;
     
@@ -843,11 +844,13 @@
         
     }
     else {
-        [[Message share] messageAlert:@"请打开定位服务，否则您将无法做任何操作"];
+        
+        
+        [[Message share] messageAlert:@"请打开定位服务，并且选择始终允许访问位置信息， 否则您将无法做任何操作"];
         
         UIButton *b = [UIButton buttonWithType:UIButtonTypeSystem];
         
-        [b setTitle:@"请打开定位服务，否则您将无法做任何操作" forState:UIControlStateNormal];
+        [b setTitle:@"请打开定位服务，并且选择始终允许访问位置信息， 否则您将无法做任何操作" forState:UIControlStateNormal];
         [b addTarget:self action:@selector(checkLocationServicesEnabled:) forControlEvents:UIControlEventTouchUpInside];
         b.frame = self.view.frame;
         
@@ -1249,6 +1252,8 @@
     
     
     
+    
+    
     AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
     manager.responseSerializer = [AFXMLParserResponseSerializer new];
     manager.responseSerializer.acceptableContentTypes = [NSSet setWithObject:@"text/xml"];
@@ -1271,6 +1276,7 @@
 
         type =  @"signal out";
     }
+    
     
     NSDictionary *parameters = @{@"pactnumber": self.dataMDict[@"PactNumer"][@"text"],
                                  @"signalType": type,
@@ -1527,10 +1533,8 @@
 
 - (void)selectItem:(UIButton *)button
 {
-    UITableViewCell *cell = (UITableViewCell *)[[[button superview]  superview] superview];
-    if ( !iOS7) {
-        cell = (UITableViewCell *)[[button superview]  superview];
-    }
+    UITableViewCell *cell = cell = (UITableViewCell *)[[button superview]  superview];
+    
     NSIndexPath *indexPath = [tb indexPathForCell:cell];
 
 
@@ -1906,6 +1910,7 @@
     NSMutableDictionary *currentDict =  self.dataMArray[indexPath.section][indexPath.row];
     NSMutableDictionary *dict = [Cookie getCookie:SharedAppUser.currentConstruction];
   
+
     UILabel *l = (UILabel *)[cell.contentView viewWithTag:2014];
     l.text = @"";
 //    NSMutableDictionary *dict = [NSMutableDictionary dictionaryWithDictionary:[Cookie getCookie:SharedAppUser.currentConstruction]];
