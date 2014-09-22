@@ -81,6 +81,12 @@ BMKMapManager *_mapManager;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    
+    
+    NSSetUncaughtExceptionHandler(&uncaughtExceptionHandler);    // Normal launch stuff
+
+    
+    
     //    [MTA startWithAppkey:@"IWQVM4V749EQ"];
     //    [[MTAConfig getInstance] setSessionTimeoutSecs:60];
     
@@ -246,5 +252,35 @@ BMKMapManager *_mapManager;
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
+
+
+
+void uncaughtExceptionHandler(NSException *exception) {
+    NSLog(@"CRASH: %@", exception);
+    NSLog(@"Stack Trace: %@", [exception callStackSymbols]);
+    // Internal error reporting
+}
+
+
+- (void)sendEmail
+{
+//        MFMailComposeViewController *mailComposer = [[MFMailComposeViewController alloc] init];
+//        mailComposer.mailComposeDelegate = self;[mailComposer setSubject:@"Crash Log"];
+//        // Set up recipients
+//        NSArray *toRecipients = [NSArray arrayWithObject:@"first@example.com"];
+//        [mailComposer setToRecipients:toRecipients];
+//        // Attach the Crash Log..
+//        NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory,
+//                                                             NSUserDomainMask, YES);NSString *documentsDirectory = [paths objectAtIndex:0];
+//        NSString *logPath = [documentsDirectory stringByAppendingPathComponent:@"console.log"];
+//        NSData *myData = [NSData dataWithContentsOfFile:logPath];
+//        [mailComposer addAttachmentData:myData mimeType:@"Text/XML" fileName:@"Console.log"];
+//        // Fill out the email body text
+//        NSString *emailBody = @"Crash Log";
+//        [mailComposer setMessageBody:emailBody isHTML:NO];
+//        [self presentModalViewController:mailComposer animated:YES];
+    
+}
+
 
 @end
