@@ -48,13 +48,20 @@ static LocationManager *instanceControl;
 
 - (BOOL)getLocationServicesEnabled
 {
-    if ([CLLocationManager locationServicesEnabled] &&
-        [CLLocationManager authorizationStatus] == kCLAuthorizationStatusDenied) {
+    
+    if ([CLLocationManager locationServicesEnabled]) {
+
+        if ( [CLLocationManager authorizationStatus] == kCLAuthorizationStatusAuthorizedAlways) {
+            return YES;
+        }
+        else {
+            return NO;
+        }
+        
+    }
+    else
         return NO;
-    }
-    else {
-        return YES;
-    }
+    
 }
 
 - (void)getCityName
