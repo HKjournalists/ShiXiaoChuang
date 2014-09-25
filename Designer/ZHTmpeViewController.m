@@ -273,8 +273,8 @@
     
     UITableViewCell *cell = (UITableViewCell *)[[[button superview]  superview] superview];
     
-    
-    if ( !iOS7) {
+    if (iOS8) {
+        
         cell = (UITableViewCell *)[[button superview]  superview];
     }
     
@@ -391,8 +391,6 @@
     }
 
     return cell;
-    
-    
 }
 
 #pragma mark - Table view delegate
@@ -403,7 +401,9 @@
     UISwitch *sw = (UISwitch *)sender;
     
     UITableViewCell *cell = (UITableViewCell *)[[[sender superview]  superview] superview];
-    if ( !iOS7) {
+    
+    if (iOS8) {
+        
         cell = (UITableViewCell *)[[sender superview]  superview];
     }
     NSIndexPath *indexPath = [_tb indexPathForCell:cell];

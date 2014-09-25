@@ -265,7 +265,8 @@
     UITableViewCell *cell = (UITableViewCell *)[[[button superview]  superview] superview];
     
     
-    if ( !iOS7) {
+    if (iOS8) {
+        
         cell = (UITableViewCell *)[[button superview]  superview];
     }
 
@@ -293,8 +294,8 @@
     
     UITableViewCell *cell = (UITableViewCell *)[[[button superview]  superview] superview];
     
-    
-    if ( !iOS7) {
+    if (iOS8) {
+        
         cell = (UITableViewCell *)[[button superview]  superview];
     }
     

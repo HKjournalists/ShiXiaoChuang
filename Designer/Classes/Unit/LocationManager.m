@@ -51,7 +51,7 @@ static LocationManager *instanceControl;
     
     if ([CLLocationManager locationServicesEnabled]) {
 
-        if ( [CLLocationManager authorizationStatus] == kCLAuthorizationStatusAuthorizedAlways) {
+        if ( [CLLocationManager authorizationStatus] == kCLAuthorizationStatusAuthorized) {
             return YES;
         }
         else {

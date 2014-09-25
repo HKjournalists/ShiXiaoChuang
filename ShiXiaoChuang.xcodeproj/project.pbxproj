@@ -1741,10 +1741,10 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Designer/Classes/Unit/Release-iphoneos",
 				);
-				ONLY_ACTIVE_ARCH = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = ShiXiaoChuang;
 				PROVISIONING_PROFILE = "";
-				VALID_ARCHS = "armv7 armv7s armv64";
+				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -1769,7 +1769,7 @@
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = ShiXiaoChuang;
 				PROVISIONING_PROFILE = "2F6DB9F6-0B65-4C74-8351-A46E20ED2454";
-				VALID_ARCHS = "armv7 armv7s armv64";
+				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -1870,7 +1870,7 @@
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = ShiXiaoChuang;
 				PROVISIONING_PROFILE = "";
-				VALID_ARCHS = "armv7 armv7s armv64";
+				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Distribution;

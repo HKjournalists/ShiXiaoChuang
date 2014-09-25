@@ -28,7 +28,9 @@
     
 
         UITableViewCell *cell = (UITableViewCell *)[[[currentButton superview]  superview] superview];
-        if ( !iOS7) {
+        
+        if (iOS8) {
+            
             cell = (UITableViewCell *)[[currentButton superview]  superview];
         }
         NSIndexPath *indexPath = [tb indexPathForCell:cell];
@@ -376,7 +378,9 @@
 - (void)takenPhoto:(UIButton *)button
 {
     UITableViewCell *cell = (UITableViewCell *)[[[button superview]  superview] superview];
-    if ( !iOS7) {
+    
+    if (iOS8) {
+        
         cell = (UITableViewCell *)[[button superview]  superview];
     }
     NSIndexPath *indexPath = [tb indexPathForCell:cell];
@@ -426,7 +430,9 @@
     UITableViewCell *cell = (UITableViewCell *)[[[button superview]  superview] superview];
     
     
-    if ( !iOS7) {
+    
+    if (iOS8) {
+        
         cell = (UITableViewCell *)[[button superview]  superview];
     }
     
@@ -443,7 +449,9 @@
     UITableViewCell *cell = (UITableViewCell *)[[[button superview]  superview] superview];
     
     
-    if ( !iOS7) {
+    
+    if (iOS8) {
+        
         cell = (UITableViewCell *)[[button superview]  superview];
     }
     
@@ -783,7 +791,9 @@
 {
     
     UITableViewCell *cell = (UITableViewCell *)[[[textField superview]  superview] superview];
-    if ( !iOS7) {
+    
+    if (iOS8) {
+        
         cell = (UITableViewCell *)[[textField superview]  superview];
     }
     

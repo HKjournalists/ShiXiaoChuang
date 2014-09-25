@@ -50,7 +50,9 @@ typedef enum {
 
 
 
-#define iOS7 ([[[UIDevice currentDevice]systemVersion] floatValue] >= 7.0)?YES:NO
+#define iOS7 ([[[UIDevice currentDevice]systemVersion] floatValue] >= 7.0 && [[[UIDevice currentDevice]systemVersion] floatValue] <= 8.0)?YES:NO
+
+#define iOS8 ([[[UIDevice currentDevice]systemVersion] floatValue] >= 8.0 && [[[UIDevice currentDevice]systemVersion] floatValue] <= 9.0)?YES:NO
 
 
 #define Statue_success @"100"
@@ -134,11 +136,11 @@ typedef enum {
 #define KLongDuration 1
 
 
-//#ifdef DEBUG
-//#define KHomeUrl @"http://124.202.145.74:8815/"
-//#else
+#ifdef DEBUG
+#define KHomeUrl @"http://124.202.145.74:8815/"
+#else
 #define KHomeUrl @"http://oa.sitrust.cn:8001/"
-//#endif
+#endif
 
 
 

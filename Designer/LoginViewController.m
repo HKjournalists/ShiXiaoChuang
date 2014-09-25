@@ -289,7 +289,7 @@
     [d setValue:d[@"Name"][@"text"] forKey:@"account"];
     [d setValue:[NSDate date] forKey:@"date"];
 
-    
+
     
     
     [Cookie setCookie:@"Lat" value:d[@"Lat"][@"text"]];
@@ -518,7 +518,7 @@
     
 #ifdef DEBUG
     nameTextField.text = @"baiyibing";
-    passwordTextField.text = @"123456";
+    passwordTextField.text = @"1";
 #endif
     
 }

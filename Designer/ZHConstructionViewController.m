@@ -1474,6 +1474,15 @@
             NSString *table = [NSString stringWithFormat:@"table%d", currentProcess];
             [dict setValue:@"1" forKey:table];
             [Cookie setCookie:SharedAppUser.currentConstruction value:dict];
+            
+//            竣工
+            
+            if ( currentProcess == 4) {
+
+                currentButton = self.outButton;
+                [self signalIntype:NO];
+            }
+            
             return ;
         }
         else {
@@ -1533,8 +1542,12 @@
 
 - (void)selectItem:(UIButton *)button
 {
-    UITableViewCell *cell = cell = (UITableViewCell *)[[button superview]  superview];
-    
+    UITableViewCell * cell = (UITableViewCell *)[[[button superview]  superview] superview];
+
+    if (iOS8) {
+        
+        cell = (UITableViewCell *)[[button superview]  superview];
+    }
     NSIndexPath *indexPath = [tb indexPathForCell:cell];
 
 
@@ -1592,7 +1605,8 @@
     UITableViewCell *cell = (UITableViewCell *)[[[button superview]  superview] superview];
     
     
-    if ( !iOS7) {
+    if (iOS8) {
+        
         cell = (UITableViewCell *)[[button superview]  superview];
     }
     
